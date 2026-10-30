@@ -9,7 +9,7 @@ export default function GalleryPage() {
     <>
       <PageBanner title="Gallery" />
       <section className="bg-mist py-20">
-        <div className="mx-auto max-w-[1300px] px-6">
+        <div className="mx-auto max-w-325px px-6">
           <SectionHeading
             eyebrow="Our Gallery"
             title="A Journey Through"

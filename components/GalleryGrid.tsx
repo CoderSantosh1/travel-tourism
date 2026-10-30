@@ -74,9 +74,9 @@ export default function GalleryGrid({
               className="object-cover transition-transform duration-700 group-hover:scale-115"
             />
             <span className="absolute inset-0 grid place-items-center bg-navy/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-              <span className="grid h-14 w-14 scale-0 place-items-center rounded-full bg-white text-sky transition-transform duration-500 group-hover:scale-100">
-                <Icon name="zoom" className="h-6 w-6" />
-              </span>
+              {/* <span className="grid h-14 w-14 scale-0 place-items-center rounded-full bg-white text-sky transition-transform duration-500 group-hover:scale-100"> */}
+                {/* <Icon name="zoom" className="h-6 w-6" /> */}
+              {/* </span> */}
             </span>
           </motion.button>
         ))}

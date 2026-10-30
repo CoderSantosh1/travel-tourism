@@ -114,7 +114,7 @@ export function PackagesSection({ items = packages.slice(0, 4), home = false, bu
 export function DestinationsSection({ items = destinations.slice(0, 4), button = true }: { items?: Destination[]; button?: boolean }) {
   return (
     <section className="bg-gradient-to-b from-mist to-[#eef8fc] py-20">
-      <div className="mx-auto max-w-[1300px] px-6">
+      <div className="mx-auto max-w-325px px-6">
         <SectionHeading
           eyebrow="Popular Destinations"
           title="Explore Top"
