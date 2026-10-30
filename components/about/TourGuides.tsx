@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { guides } from "@/data/site-data";
+import { teamData } from "@/data/site-data";
 import { SectionHeading } from "../ui";
 import { Stagger, StaggerItem } from "../Motion";
 
@@ -9,13 +9,13 @@ export default function TourGuides() {
       <div className="pointer-events-none absolute -right-32 top-0 h-80 w-80 rounded-full bg-[#dff1f8]" />
       <div className="relative mx-auto max-w-[1300px] px-6">
         <SectionHeading
-          eyebrow="Meet With Our"
-          title="Tour"
-          accent="Guide"
-          text="Our expert tour guides are passionate travelers who love to share their knowledge, helping you explore destinations with unique insights and memorable experiences."
+          eyebrow={teamData.subtitle}
+          title={teamData.title1}
+          accent={teamData.titleAccent}
+          text={teamData.description}
         />
         <Stagger className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.12}>
-          {guides.map((g) => (
+          {teamData.members.map((g) => (
             <StaggerItem key={g.name} from="flip">
               <div className="group h-full overflow-hidden rounded-xl bg-white shadow-[0_10px_35px_rgba(11,37,69,0.08)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_50px_rgba(27,163,198,0.2)]">
                 <div className="shine relative h-[170px] overflow-hidden">

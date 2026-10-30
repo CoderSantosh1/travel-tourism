@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { navLinks } from "@/data/site-data";
+import { headerData } from "@/data/site-data";
 import Icon from "./Icon";
 
 // Detail pages highlight their parent section.
@@ -41,16 +41,16 @@ export default function Header() {
     >
       <div className={`mx-auto flex max-w-[1400px] items-center justify-between px-4 transition-all duration-300 sm:px-8 ${scrolled ? "h-[64px]" : "h-[76px]"}`}>
         <Link href="/" className="relative shrink-0">
-          <Image src="/common/logo.png" alt="TourAvibe" width={1109} height={313} priority className={`w-auto transition-all duration-300 ${scrolled ? "h-[40px] xl:h-[44px]" : "h-[46px] xl:h-[54px]"}`} />
+          <Image src={headerData.logo} alt={headerData.logoAlt} width={1109} height={313} priority className={`w-auto transition-all duration-300 ${scrolled ? "h-[40px] xl:h-[44px]" : "h-[46px] xl:h-[54px]"}`} />
         </Link>
 
         <nav className="hidden items-center lg:flex xl:gap-1 2xl:gap-3">
-          {navLinks.map((l) => {
-            const isActive = active === l.href;
+          {headerData.navLinks.map((l) => {
+            const isActive = active === l.url;
             return (
               <Link
-                key={l.href}
-                href={l.href}
+                key={l.id}
+                href={l.url}
                 className={`relative whitespace-nowrap px-2 py-2 text-[14px] transition-colors xl:px-2.5 xl:text-[15px] 2xl:px-3 ${isActive ? "font-medium text-brand" : "text-ink hover:text-brand"}`}
               >
                 {l.label}
@@ -64,11 +64,11 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <Link
-            href="/booking"
+            href={headerData.bookingButton.url}
             className="group relative hidden overflow-hidden rounded-xl bg-brand px-5 py-2.5 font-medium text-white xl:px-7 xl:py-3 shadow-[0_6px_18px_rgba(217,85,43,0.35)] transition-transform hover:-translate-y-0.5 sm:inline-block"
           >
             <span className="absolute inset-0 -translate-x-full bg-navy transition-transform duration-500 group-hover:translate-x-0" />
-            <span className="relative">Book Now</span>
+            <span className="relative">{headerData.bookingButton.text}</span>
           </Link>
           <button onClick={() => setOpen(!open)} className="grid h-11 w-11 place-items-center rounded-lg bg-mist text-navy lg:hidden" aria-label="Toggle menu">
             <Icon name={open ? "close" : "menu"} className="h-6 w-6" />
@@ -85,9 +85,9 @@ export default function Header() {
             className="overflow-hidden border-t border-slate-100 bg-white lg:hidden"
           >
             <ul className="space-y-1 px-4 py-4">
-              {[...navLinks, { label: "Book Now", href: "/booking" }].map((l, i) => (
-                <motion.li key={l.href} initial={{ x: -30, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: i * 0.05 }}>
-                  <Link href={l.href} className={`block rounded-lg px-4 py-3 ${active === l.href ? "bg-brand/10 font-medium text-brand" : "text-ink hover:bg-mist"}`}>
+              {[...headerData.navLinks, { id: "nl-booking", label: headerData.bookingButton.text, url: headerData.bookingButton.url }].map((l, i) => (
+                <motion.li key={l.id} initial={{ x: -30, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: i * 0.05 }}>
+                  <Link href={l.url} className={`block rounded-lg px-4 py-3 ${active === l.url ? "bg-brand/10 font-medium text-brand" : "text-ink hover:bg-mist"}`}>
                     {l.label}
                   </Link>
                 </motion.li>

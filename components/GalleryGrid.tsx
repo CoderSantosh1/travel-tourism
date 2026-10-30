@@ -3,12 +3,12 @@
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
-import { gallery } from "@/data/site-data";
+import { galleryData } from "@/data/site-data";
 import Icon from "./Icon";
 import { Pagination } from "./Cards";
 
 export default function GalleryGrid({
-  items = gallery,
+  items = galleryData.images,
   itemsPerPage = 12,
 }: {
   items?: string[];
@@ -68,7 +68,7 @@ export default function GalleryGrid({
           >
             <Image
               src={src}
-              alt={`Gallery photo ${startIndex + i + 1}`}
+              alt={`${galleryData.imageAltPrefix} ${startIndex + i + 1}`}
               fill
               sizes="(min-width:1024px) 25vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-115"
@@ -110,7 +110,7 @@ export default function GalleryGrid({
                 className="relative aspect-[1.05] w-full max-w-3xl overflow-hidden rounded-2xl"
                 onClick={(e) => e.stopPropagation()}
               >
-                <Image src={currentItems[open]} alt={`Gallery photo ${startIndex + open + 1}`} fill sizes="768px" className="object-cover" />
+                <Image src={currentItems[open]} alt={`${galleryData.imageAltPrefix} ${startIndex + open + 1}`} fill sizes="768px" className="object-cover" />
               </motion.div>
             </AnimatePresence>
             {([

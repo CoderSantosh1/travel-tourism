@@ -1,5 +1,5 @@
 "use client";
-import { services, packages, destinations, blogs } from "@/data/site-data";
+import { servicesData, packagesData, destinationsData, blogsData } from "@/data/site-data";
 import { SectionHeading, PillButton } from "../ui";
 import { Stagger, StaggerItem, Reveal } from "../Motion";
 import { ServiceCard, PackageCard, DestinationCard, BlogCard, Pagination } from "../Cards";
@@ -8,7 +8,7 @@ import type { Service, TourPackage, Destination, BlogPost } from "@/types/site";
 import { useState, useRef, useEffect } from "react";
 
 export function ServicesSection({
-  items = services.slice(0, 4),
+  items = servicesData.services.slice(0, 4),
   showHeading = true,
   itemsPerPage = 4,
   paginate = true,
@@ -58,10 +58,10 @@ export function ServicesSection({
       <div className="relative mx-auto max-w-[1300px] px-6">
         {showHeading && (
           <SectionHeading
-            eyebrow="Our Services"
-            title="Explore Our"
-            accent="Travel Services"
-            text="From personalized tour planning to unforgettable experiences, we offer a wide range of travel services to make your journey smooth, exciting and truly memorable."
+            eyebrow={servicesData.subtitle}
+            title={servicesData.title1}
+            accent={servicesData.titleAccent}
+            text={servicesData.description}
           />
         )}
 
@@ -90,50 +90,50 @@ export function ServicesSection({
     </section>
   );
 }
-export function PackagesSection({ items = packages.slice(0, 4), home = false, button = true }: { items?: TourPackage[]; home?: boolean; button?: boolean }) {
+export function PackagesSection({ items = packagesData.packages.slice(0, 4), home = false, button = true }: { items?: TourPackage[]; home?: boolean; button?: boolean }) {
   return (
     <section className="bg-mist py-20">
       <div className="mx-auto max-w-[1300px] px-6">
         <SectionHeading
-          eyebrow="Choose Your Package"
-          title="Popular Tour"
-          accent="Packages"
-          text="Discover our handpicked tour packages to the world’s most amazing destinations. Travel more, explore more and create unforgettable memories."
+          eyebrow={packagesData.subtitle}
+          title={packagesData.title1}
+          accent={packagesData.titleAccent}
+          text={packagesData.description}
         />
         <Stagger className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((p) => (
             <StaggerItem key={p.title}><PackageCard p={p} home={home} /></StaggerItem>
           ))}
         </Stagger>
-        {button && <Reveal className="mt-10 text-center"><PillButton href="/tour-packages">View All Packages</PillButton></Reveal>}
+        {button && <Reveal className="mt-10 text-center"><PillButton href={packagesData.button.url}>{packagesData.button.text}</PillButton></Reveal>}
       </div>
     </section>
   );
 }
 
-export function DestinationsSection({ items = destinations.slice(0, 4), button = true }: { items?: Destination[]; button?: boolean }) {
+export function DestinationsSection({ items = destinationsData.destinations.slice(0, 4), button = true }: { items?: Destination[]; button?: boolean }) {
   return (
     <section className="bg-gradient-to-b from-mist to-[#eef8fc] py-20">
       <div className="mx-auto max-w-325px px-6">
         <SectionHeading
-          eyebrow="Popular Destinations"
-          title="Explore Top"
-          accent="Destinations"
-          text="Discover the most beautiful places around the world. From stunning cities to serene landscapes, find your next travel destination with us."
+          eyebrow={destinationsData.subtitle}
+          title={destinationsData.title1}
+          accent={destinationsData.titleAccent}
+          text={destinationsData.description}
         />
         <Stagger className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.1}>
           {items.map((d) => (
             <StaggerItem key={d.title} from="zoom"><DestinationCard d={d} /></StaggerItem>
           ))}
         </Stagger>
-        {button && <Reveal className="mt-10 text-center"><PillButton href="/destinations">View All Destinations</PillButton></Reveal>}
+        {button && <Reveal className="mt-10 text-center"><PillButton href={destinationsData.button.url}>{destinationsData.button.text}</PillButton></Reveal>}
       </div>
     </section>
   );
 }
 
 export function BlogSection({
-  items = blogs.slice(0, 4),
+  items = blogsData.blogs.slice(0, 4),
   button = true,
   eyebrow,
   itemsPerPage = 4,
@@ -173,10 +173,10 @@ export function BlogSection({
     <section ref={sectionRef} className="bg-mist py-20">
       <div className="mx-auto max-w-[1300px] px-6">
         <SectionHeading
-          eyebrow={eyebrow || "Latest Blog"}
-          title="Our Recent"
-          accent="Posts"
-          text="Discover travel tips, destination guides and inspiring stories to help you plan your next unforgettable journey."
+          eyebrow={eyebrow || blogsData.subtitle}
+          title={blogsData.title1}
+          accent={blogsData.titleAccent}
+          text={blogsData.description}
         />
         <Stagger
           key={currentPage}
@@ -193,7 +193,7 @@ export function BlogSection({
 
         {button && (
           <Reveal className="mt-10 text-center">
-            <PillButton href="/blog">View All Blog</PillButton>
+            <PillButton href={blogsData.button.url}>{blogsData.button.text}</PillButton>
           </Reveal>
         )}
 

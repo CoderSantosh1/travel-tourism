@@ -5,9 +5,12 @@ import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Icon from "./Icon";
+import { common } from "@/data/site-data";
+import type { Breadcrumb } from "@/types/site";
 
 // Inner-page hero: slow Ken Burns zoom, scroll parallax, letter-by-letter title.
-export default function PageBanner({ title, crumb }: { title: string; crumb?: string }) {
+export default function PageBanner({ data }: { data: Breadcrumb }) {
+  const { title, crumb, bgImage } = data;
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
@@ -22,7 +25,7 @@ export default function PageBanner({ title, crumb }: { title: string; crumb?: st
           animate={{ scale: 1.05 }}
           transition={{ duration: 2.4, ease: [0.22, 1, 0.36, 1] }}
         >
-          <Image src="/common/page-banner.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
+          <Image src={bgImage} alt="" fill priority sizes="100vw" className="object-cover" />
         </motion.div>
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-b from-navy/30 via-navy/20 to-navy/50" />
@@ -47,7 +50,7 @@ export default function PageBanner({ title, crumb }: { title: string; crumb?: st
           transition={{ delay: 0.9, duration: 0.6 }}
           className="mt-5 flex items-center gap-2 rounded-full bg-white/15 px-5 py-2 text-sm text-white backdrop-blur-md"
         >
-          <Link href="/" className="hover:text-sun">Home</Link>
+          <Link href="/" className="hover:text-sun">{common.breadcrumbHomeLabel}</Link>
           <Icon name="chevron" className="h-4 w-4" />
           <span className="text-sun">{crumb || title}</span>
         </motion.div>

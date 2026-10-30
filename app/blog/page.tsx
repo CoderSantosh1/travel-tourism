@@ -1,14 +1,14 @@
 import PageBanner from "@/components/PageBanner";
 import { BlogSection } from "@/components/home/Sections";
-import { blogs } from "@/data/site-data";
+import { common, blogsData } from "@/data/site-data";
 
-export const metadata = { title: "Blog" };
+export const metadata = { title: common.blogBreadcrumb.pageTitle };
 
 export default function BlogPage() {
   return (
     <>
-      <PageBanner title="Blog" />
-      <BlogSection items={blogs} button={false} />
+      <PageBanner data={common.blogBreadcrumb} />
+      <BlogSection items={blogsData.blogs} button={false} />
     </>
   );
 }

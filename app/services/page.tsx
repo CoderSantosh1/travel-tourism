@@ -1,14 +1,14 @@
 import PageBanner from "@/components/PageBanner";
 import { ServicesSection } from "@/components/home/Sections";
-import { services } from "@/data/site-data";
+import { common, servicesData } from "@/data/site-data";
 
-export const metadata = { title: "Services" };
+export const metadata = { title: common.servicesBreadcrumb.pageTitle };
 
 export default function ServicesPage() {
   return (
     <>
-      <PageBanner title="Services" />
-      <ServicesSection items={services} />
+      <PageBanner data={common.servicesBreadcrumb} />
+      <ServicesSection items={servicesData.services} />
     </>
   );
 }

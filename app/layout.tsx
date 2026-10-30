@@ -3,6 +3,7 @@ import { Poppins, Playfair_Display, Dancing_Script } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollExtras from "@/components/ScrollExtras";
+import { common } from "@/data/site-data";
 import type { ReactNode } from "react";
 import "./globals.css";
 
@@ -11,8 +12,8 @@ const playfair = Playfair_Display({ subsets: ["latin"], weight: ["500", "600", "
 const script = Dancing_Script({ subsets: ["latin"], weight: ["500", "600"], variable: "--font-dancing" });
 
 export const metadata: Metadata = {
-  title: { default: "TourAvibe | Explore • Discover • Belong", template: "%s | TourAvibe" },
-  description: "Discover breathtaking destinations, unforgettable experiences and memories that last a lifetime with TourAvibe.",
+  title: { default: common.seo.titleDefault, template: common.seo.titleTemplate },
+  description: common.seo.description,
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

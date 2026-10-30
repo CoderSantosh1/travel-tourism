@@ -2,11 +2,13 @@
 
 import { createContext, useContext, useRef, useState, type ReactNode, type FormEvent, type FocusEvent, type ChangeEvent } from "react";
 import { AnimatePresence, motion, useAnimationControls } from "framer-motion";
-import Icon, { type IconName } from "./Icon";
+import Icon from "./Icon";
+import { common } from "@/data/site-data";
+import type { FieldKind, FormField } from "@/types/site";
+
+const msg = common.validationMessages;
 
 /* ---------------- validation rules ---------------- */
-
-export type FieldKind = "name" | "email" | "phone" | "date" | "travelers" | "select" | "message";
 
 type FieldEl = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
 
@@ -20,36 +22,36 @@ export function validate(kind: FieldKind, raw: string, required: boolean, label:
   const value = raw.trim();
   if (!value) {
     if (!required) return "";
-    return kind === "select" ? `Please select ${label.toLowerCase()}` : `Please enter ${label.toLowerCase()}`;
+    return (kind === "select" ? msg.requiredSelect : msg.requiredText).replace("{label}", label.toLowerCase());
   }
   switch (kind) {
     case "name":
-      if (value.length < 2) return "Name must be at least 2 characters";
-      if (!/^[A-Za-z][A-Za-z\s.'-]*$/.test(value)) return "Name can only contain letters and spaces";
-      if (value.length > 50) return "Name must be under 50 characters";
+      if (value.length < 2) return msg.nameMin;
+      if (!/^[A-Za-z][A-Za-z\s.'-]*$/.test(value)) return msg.nameChars;
+      if (value.length > 50) return msg.nameMax;
       return "";
     case "email":
-      return /^[^\s@]+@[^\s@]+\.[A-Za-z]{2,}$/.test(value) ? "" : "Please enter a valid email address";
+      return /^[^\s@]+@[^\s@]+\.[A-Za-z]{2,}$/.test(value) ? "" : msg.email;
     case "phone": {
       const digits = value.replace(/[\s-]/g, "").replace(/^(\+91|0)/, "");
-      return /^[6-9]\d{9}$/.test(digits) ? "" : "Please enter a valid 10-digit mobile number";
+      return /^[6-9]\d{9}$/.test(digits) ? "" : msg.phone;
     }
     case "date":
-      return value < today() ? "Travel date can’t be in the past" : "";
+      return value < today() ? msg.datePast : "";
     case "travelers": {
       const n = Number(value.replace("+", ""));
-      return Number.isInteger(n) && n >= 1 && n <= 50 ? "" : "Travelers must be between 1 and 50";
+      return Number.isInteger(n) && n >= 1 && n <= 50 ? "" : msg.travelersRange;
     }
     case "message":
-      if (value.length < 10) return "Message must be at least 10 characters";
-      if (value.length > 1000) return "Message must be under 1000 characters";
+      if (value.length < 10) return msg.messageMin;
+      if (value.length > 1000) return msg.messageMax;
       return "";
     default:
       return "";
   }
 }
 
-const checkEl = (el: FieldEl) => validate(el.dataset.kind as FieldKind, el.value, el.dataset.required === "true", el.dataset.label || "this field");
+const checkEl = (el: FieldEl) => validate(el.dataset.kind as FieldKind, el.value, el.dataset.required === "true", el.dataset.label || msg.fallbackLabel);
 
 /* ---------------- form shell ---------------- */
 
@@ -143,22 +145,9 @@ export function AnimatedForm({ children, className = "", success, dark = false }
 
 /* ---------------- field ---------------- */
 
-interface InputFieldProps {
-  name: string;
-  kind: FieldKind;
-  icon: IconName;
-  placeholder: string;
-  /** Used in "Please enter …" messages; defaults to the placeholder. */
-  label?: string;
-  required?: boolean;
-  options?: string[];
-  rows?: number;
-  className?: string;
-}
-
 const inputType: Partial<Record<FieldKind, string>> = { email: "email", phone: "tel", date: "date", travelers: "number" };
 
-export function InputField({ name, kind, icon, placeholder, label, required = false, options = [], rows = 5, className = "" }: InputFieldProps) {
+export function InputField({ name, kind, icon, placeholder, label, required = false, options = [], rows = 5, fullWidth = false }: FormField) {
   const { errors, dark, onBlur, onChange } = useContext(FormCtx);
   const error = errors[name];
   const id = `f-${name}`;
@@ -177,7 +166,7 @@ export function InputField({ name, kind, icon, placeholder, label, required = fa
   };
 
   return (
-    <div className={className}>
+    <div className={fullWidth ? "sm:col-span-2" : ""}>
       <label className="relative block">
         <span className={`pointer-events-none absolute left-4 top-3.5 transition-colors ${error ? "text-red-400" : "text-slate-500"}`}>
           <Icon name={icon} className="h-5 w-5" />

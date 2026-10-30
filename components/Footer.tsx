@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contact, quickLinks, footerServices, footerDestinations } from "@/data/site-data";
+import { common } from "@/data/site-data";
 import { Reveal, DrawLine } from "./Motion";
 import Icon from "./Icon";
 import type { ReactNode } from "react";
@@ -27,6 +27,7 @@ function FooterLink({ href, children }: { href: string; children: ReactNode }) {
 }
 
 export default function Footer() {
+  const { Footer: footer, contactInfo: contact } = common;
   return (
     <footer className="relative overflow-hidden bg-navy text-white">
       <div className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sky/10 blur-3xl" />
@@ -34,30 +35,30 @@ export default function Footer() {
 
       <div className="relative mx-auto grid max-w-[1200px] gap-12 px-6 py-20 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.1fr]">
         <Reveal from="left">
-          <Image src="/common/logo-white.png" alt="TourAvibe" width={1109} height={313} className="h-[72px] w-auto" />
+          <Image src={footer.logo} alt={footer.logoAlt} width={1109} height={313} className="h-[72px] w-auto" />
           <p className="mt-5 max-w-sm text-[17px] leading-relaxed text-white/90">
-            Explore the world with unforgettable experiences, handpicked destinations and customized travel packages crafted just for you.
+            {footer.description}
           </p>
           <ul className="mt-6 space-y-3 text-white/90">
             <li className="flex gap-4"><Icon name="pin" className="mt-0.5 h-5 w-5 shrink-0 text-sky" /> <span>{contact.address}</span></li>
-            <li className="flex gap-4"><Icon name="phone" className="h-5 w-5 shrink-0 text-sky" /> <a href={`tel:${contact.phone.replace(/\s+/g, "")}`} className="hover:text-sky">{contact.phone}</a></li>
-            <li className="flex gap-4"><Icon name="mail" className="h-5 w-5 shrink-0 text-sky" /> <a href={`mailto:${contact.email}`} className="hover:text-sky">{contact.email}</a></li>
+            <li className="flex gap-4"><Icon name="phone" className="h-5 w-5 shrink-0 text-sky" /> <a href={contact.phoneUrl} className="hover:text-sky">{contact.phone}</a></li>
+            <li className="flex gap-4"><Icon name="mail" className="h-5 w-5 shrink-0 text-sky" /> <a href={contact.emailUrl} className="hover:text-sky">{contact.email}</a></li>
           </ul>
         </Reveal>
 
-        <Column title="Quick Links" delay={0.1}>
-          {quickLinks.map((l) => <FooterLink key={l.href} href={l.href}>{l.label}</FooterLink>)}
+        <Column title={footer.quickLinksTitle} delay={0.1}>
+          {footer.quickLinks.map((l) => <FooterLink key={l.id} href={l.url}>{l.label}</FooterLink>)}
         </Column>
-        <Column title="Our Services" delay={0.2}>
-          {footerServices.map((s) => <FooterLink key={s} href="/services">{s}</FooterLink>)}
+        <Column title={footer.servicesTitle} delay={0.2}>
+          {footer.servicesLinks.map((l) => <FooterLink key={l.id} href={l.url}>{l.label}</FooterLink>)}
         </Column>
-        <Column title="Popular Destinations" delay={0.3}>
-          {footerDestinations.map((d) => <FooterLink key={d} href="/destinations">{d}</FooterLink>)}
+        <Column title={footer.destinationsTitle} delay={0.3}>
+          {footer.destinationsLinks.map((l) => <FooterLink key={l.id} href={l.url}>{l.label}</FooterLink>)}
         </Column>
       </div>
 
       <div className="relative border-t border-sky/30 py-7 text-center text-white/90">
-        © {new Date().getFullYear()} TourAvibe. All Rights Reserved. Powered by Lestow.
+        {footer.copyrightText.replace("{year}", String(new Date().getFullYear()))}
       </div>
     </footer>
   );

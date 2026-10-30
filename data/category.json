@@ -1,0 +1,1743 @@
+{
+  "common": {
+    "seo": {
+      "titleDefault": "TourAvibe | Explore • Discover • Belong",
+      "titleTemplate": "%s | TourAvibe",
+      "description": "Discover breathtaking destinations, unforgettable experiences and memories that last a lifetime with TourAvibe."
+    },
+    "contactInfo": {
+      "address": "123 Ocean Drive, Miami Beach, FL 33139, USA",
+      "phone": "+1 0000000",
+      "phone2": "+1 0000000",
+      "email": "info@xyz.com",
+      "support": "info@xyz.com",
+      "phoneUrl": "tel:+10000000",
+      "emailUrl": "mailto:info@xyz.com"
+    },
+    "Footer": {
+      "logo": "/common/logo-white.png",
+      "logoAlt": "TourAvibe",
+      "description": "Explore the world with unforgettable experiences, handpicked destinations and customized travel packages crafted just for you.",
+      "quickLinksTitle": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "ql-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "ql-about-us",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "ql-services",
+          "label": "Services",
+          "url": "/services"
+        },
+        {
+          "id": "ql-destinations",
+          "label": "Destinations",
+          "url": "/destinations"
+        },
+        {
+          "id": "ql-tour-packages",
+          "label": "Tour Packages",
+          "url": "/tour-packages"
+        },
+        {
+          "id": "ql-gallery",
+          "label": "Gallery",
+          "url": "/gallery"
+        },
+        {
+          "id": "ql-blog",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "ql-contact-us",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "servicesTitle": "Our Services",
+      "servicesLinks": [
+        {
+          "id": "sl-flight-booking",
+          "label": "Flight Booking",
+          "url": "/services"
+        },
+        {
+          "id": "sl-hotel-booking",
+          "label": "Hotel Booking",
+          "url": "/services"
+        },
+        {
+          "id": "sl-tour-packages",
+          "label": "Tour Packages",
+          "url": "/services"
+        },
+        {
+          "id": "sl-travel-guide",
+          "label": "Travel Guide",
+          "url": "/services"
+        },
+        {
+          "id": "sl-corporate-travel",
+          "label": "Corporate Travel",
+          "url": "/services"
+        },
+        {
+          "id": "sl-custom-tours",
+          "label": "Custom Tours",
+          "url": "/services"
+        }
+      ],
+      "destinationsTitle": "Popular Destinations",
+      "destinationsLinks": [
+        {
+          "id": "dl-thailand",
+          "label": "Thailand",
+          "url": "/destinations"
+        },
+        {
+          "id": "dl-dubai",
+          "label": "Dubai",
+          "url": "/destinations"
+        },
+        {
+          "id": "dl-singapore",
+          "label": "Singapore",
+          "url": "/destinations"
+        },
+        {
+          "id": "dl-bali",
+          "label": "Bali",
+          "url": "/destinations"
+        },
+        {
+          "id": "dl-maldives",
+          "label": "Maldives",
+          "url": "/destinations"
+        },
+        {
+          "id": "dl-europe",
+          "label": "Europe",
+          "url": "/destinations"
+        }
+      ],
+      "copyrightText": "© {year} TourAvibe. All Rights Reserved. Powered by Lestow."
+    },
+    "breadcrumbHomeLabel": "Home",
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "pageTitle": "About Us",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "servicesBreadcrumb": {
+      "title": "Services",
+      "pageTitle": "Services",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "destinationsBreadcrumb": {
+      "title": "Destination",
+      "pageTitle": "Destinations",
+      "bgImage": "/common/page-banner.jpg",
+      "crumb": "Destinations"
+    },
+    "destinationDetailBreadcrumb": {
+      "title": "Destination Detail",
+      "pageTitle": "Destination Detail",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "galleryBreadcrumb": {
+      "title": "Gallery",
+      "pageTitle": "Gallery",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "packagesBreadcrumb": {
+      "title": "Packages",
+      "pageTitle": "Tour Packages",
+      "bgImage": "/common/page-banner.jpg",
+      "crumb": "Tour Packages"
+    },
+    "packageDetailBreadcrumb": {
+      "title": "Package Detail",
+      "pageTitle": "Package Detail",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "blogBreadcrumb": {
+      "title": "Blog",
+      "pageTitle": "Blog",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blog Detail",
+      "pageTitle": "Blog Detail",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "pageTitle": "Contact Us",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "bookingBreadcrumb": {
+      "title": "Booking",
+      "pageTitle": "Booking",
+      "bgImage": "/common/page-banner.jpg"
+    },
+    "validationMessages": {
+      "requiredText": "Please enter {label}",
+      "requiredSelect": "Please select {label}",
+      "nameMin": "Name must be at least 2 characters",
+      "nameChars": "Name can only contain letters and spaces",
+      "nameMax": "Name must be under 50 characters",
+      "email": "Please enter a valid email address",
+      "phone": "Please enter a valid 10-digit mobile number",
+      "datePast": "Travel date can’t be in the past",
+      "travelersRange": "Travelers must be between 1 and 50",
+      "messageMin": "Message must be at least 10 characters",
+      "messageMax": "Message must be under 1000 characters",
+      "fallbackLabel": "this field"
+    }
+  },
+  "categories": {
+    "Travel": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "TravelHeader1": {
+              "logo": "/common/logo.png",
+              "logoAlt": "TourAvibe",
+              "navLinks": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about-us",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "/services"
+                },
+                {
+                  "id": "nl-destinations",
+                  "label": "Destinations",
+                  "url": "/destinations"
+                },
+                {
+                  "id": "nl-tour-packages",
+                  "label": "Tour Packages",
+                  "url": "/tour-packages"
+                },
+                {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nl-blog",
+                  "label": "Blog",
+                  "url": "/blog"
+                },
+                {
+                  "id": "nl-contact-us",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "bookingButton": {
+                "text": "Book Now",
+                "url": "/booking"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "TravelHero1": {
+              "subtitle": "Explore the World with Us",
+              "title1": "Let’s Make Your",
+              "titleHighlight": "Best Trip",
+              "title2": "With Us",
+              "description": "Discover breathtaking destinations, unforgettable experiences and memories that last a lifetime with TourAvibe.",
+              "slides": [
+                "/home/hero-1.jpg",
+                "/home/hero-2.jpg",
+                "/home/hero-3.jpg"
+              ],
+              "primaryButton": {
+                "text": "Explore Packages",
+                "url": "/tour-packages"
+              },
+              "secondaryButton": {
+                "text": "Contact Us",
+                "url": "/contact"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "TravelAboutUs1": {
+              "subtitle": "About Us",
+              "title1": "We are Professional Planners For Your",
+              "titleAccent": "Best Trip",
+              "badge": "Memorable Journeys",
+              "mainImage": {
+                "src": "/about/about-1.jpg",
+                "alt": "Traveller on a boat"
+              },
+              "smallImage": {
+                "src": "/about/about-2.jpg",
+                "alt": "Santorini"
+              },
+              "descriptions": [
+                "At TourAvibe, we believe travel is more than visiting new places — it’s about creating unforgettable memories. We are a team of passionate travel experts dedicated to crafting unique and personalized travel experiences for individuals, families, and groups.",
+                "From the first idea to the moment you return home, we take care of every detail — flights, stays, transfers and sightseeing — so you can simply enjoy the journey without any stress.",
+                "Our handpicked destinations span sun-kissed beaches, snow-capped mountains, vibrant cities and hidden cultural gems, each chosen to give you authentic experiences you will talk about for years.",
+                "With transparent pricing, trusted local partners and 24/7 support, thousands of happy travelers rely on us to turn their dream holidays into reality. Your next adventure starts here."
+              ],
+              "features": [
+                {
+                  "icon": "users",
+                  "title": "Expert Travel Planners",
+                  "text": "Personalized itineraries for every traveler.",
+                  "tone": "sky"
+                },
+                {
+                  "icon": "shield",
+                  "title": "Trusted & Reliable",
+                  "text": "Your journey is in safe hands.",
+                  "tone": "gold"
+                },
+                {
+                  "icon": "star",
+                  "title": "Best Travel Experiences",
+                  "text": "Handpicked destinations and activities.",
+                  "tone": "gold"
+                },
+                {
+                  "icon": "heart",
+                  "title": "24/7 Customer Support",
+                  "text": "Always here to assist you.",
+                  "tone": "sky"
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "TravelServices1": {
+              "subtitle": "Our Services",
+              "title1": "Explore Our",
+              "titleAccent": "Travel Services",
+              "description": "From personalized tour planning to unforgettable experiences, we offer a wide range of travel services to make your journey smooth, exciting and truly memorable.",
+              "readMore": {
+                "text": "Read More",
+                "url": "/services"
+              },
+              "services": [
+                {
+                  "title": "Flight Booking",
+                  "icon": "plane",
+                  "img": "/services/flight-booking.jpg",
+                  "text": "Find and book the best flight options for your dream destinations at affordable prices."
+                },
+                {
+                  "title": "Hotel Booking",
+                  "icon": "hotel",
+                  "img": "/services/hotel-booking.jpg",
+                  "text": "Choose from a wide range of handpicked hotels for a comfortable and memorable stay."
+                },
+                {
+                  "title": "Tour Packages",
+                  "icon": "map",
+                  "img": "/services/tour-packages.jpg",
+                  "text": "Explore our customized tour packages to top destinations across the world."
+                },
+                {
+                  "title": "Travel Guide",
+                  "icon": "guide",
+                  "img": "/services/travel-guide.jpg",
+                  "text": "Get expert travel guidance, tips and recommendations for a hassle-free journey."
+                },
+                {
+                  "title": "Corporate Travel",
+                  "icon": "users",
+                  "img": "/services/corporate-travel.jpg",
+                  "text": "Reliable and efficient corporate travel solutions for business trips, meetings and events."
+                },
+                {
+                  "title": "Custom Tours",
+                  "icon": "car",
+                  "img": "/services/custom-tours.jpg",
+                  "text": "Plan your own itinerary with our flexible and personalized custom tour services."
+                },
+                {
+                  "title": "Destination Planning",
+                  "icon": "compass",
+                  "img": "/services/destination-planning.jpg",
+                  "text": "Discover handpicked destinations and get complete planning support for a perfect trip."
+                },
+                {
+                  "title": "Travel Events",
+                  "icon": "calendar",
+                  "img": "/services/travel-events.jpg",
+                  "text": "Be a part of our exclusive travel events and experience something beyond the ordinary."
+                },
+                {
+                  "title": "Photo Shoot",
+                  "icon": "camera",
+                  "img": "/services/photo-shoot.jpg",
+                  "text": "Capture your special moments with professional travel photography."
+                },
+                {
+                  "title": "Travel Insurance",
+                  "icon": "shield",
+                  "img": "/services/travel-insurance.jpg",
+                  "text": "Travel with peace of mind with our reliable and affordable travel insurance options."
+                },
+                {
+                  "title": "Visa Assistance",
+                  "icon": "doc",
+                  "img": "/services/visa-assistance.jpg",
+                  "text": "Get complete support for your visa application process with easy documentation."
+                },
+                {
+                  "title": "24/7 Travel Support",
+                  "icon": "headset",
+                  "img": "/services/travel-support.jpg",
+                  "text": "We're always here to help you before, during and after your journey."
+                }
+              ]
+            }
+          }
+        },
+        "Packages": {
+          "variants": {
+            "TravelPackages1": {
+              "subtitle": "Choose Your Package",
+              "title1": "Popular Tour",
+              "titleAccent": "Packages",
+              "description": "Discover our handpicked tour packages to the world’s most amazing destinations. Travel more, explore more and create unforgettable memories.",
+              "button": {
+                "text": "View All Packages",
+                "url": "/tour-packages"
+              },
+              "badgeText": "Best Seller",
+              "details": {
+                "text": "View Details",
+                "url": "/package-detail"
+              },
+              "packages": [
+                {
+                  "country": "Thailand",
+                  "title": "Bangkok & Phuket",
+                  "img": "/tour-packages/bangkok-phuket.jpg",
+                  "text": "Explore vibrant cities, stunning beaches and rich culture.",
+                  "days": "6 Days / 5 Nights"
+                },
+                {
+                  "country": "Malaysia",
+                  "title": "Langkawi Getaway",
+                  "img": "/tour-packages/langkawi.jpg",
+                  "text": "Relax on pristine beaches and discover natural beauty.",
+                  "days": "5 Days / 4 Nights"
+                },
+                {
+                  "country": "France",
+                  "title": "Paris City Tour",
+                  "img": "/tour-packages/paris-city.jpg",
+                  "text": "Experience art, history and unforgettable landmarks.",
+                  "days": "7 Days / 6 Nights"
+                },
+                {
+                  "country": "Bali",
+                  "title": "Island Escape",
+                  "img": "/tour-packages/island-escape.jpg",
+                  "homeImg": "/tour-packages/island-escape-home.jpg",
+                  "text": "Enjoy crystal clear waters, scenic views and exciting activities.",
+                  "days": "5 Days / 4 Nights"
+                },
+                {
+                  "country": "Dubai",
+                  "title": "Modern Dubai",
+                  "img": "/tour-packages/modern-dubai.jpg",
+                  "text": "Explore modern architecture, luxury shopping and city views.",
+                  "days": "6 Days / 5 Nights"
+                },
+                {
+                  "country": "Switzerland",
+                  "title": "Swiss Alps Adventure",
+                  "img": "/tour-packages/swiss-alps.jpg",
+                  "text": "Discover snow-capped mountains, lakes and charming villages.",
+                  "days": "7 Days / 6 Nights"
+                },
+                {
+                  "country": "Singapore",
+                  "title": "Singapore Explorer",
+                  "img": "/tour-packages/singapore.jpg",
+                  "text": "Enjoy modern attractions, shopping and vibrant city life.",
+                  "days": "5 Days / 4 Nights"
+                },
+                {
+                  "country": "Japan",
+                  "title": "Discover Japan",
+                  "img": "/tour-packages/japan.jpg",
+                  "text": "Experience ancient temples, unique culture and scenic beauty.",
+                  "days": "6 Days / 5 Nights"
+                },
+                {
+                  "country": "Maldives",
+                  "title": "Maldives Paradise",
+                  "img": "/tour-packages/maldives.jpg",
+                  "text": "Stay in luxury resorts and enjoy clear waters and white beaches.",
+                  "days": "4 Days / 3 Nights"
+                },
+                {
+                  "country": "Italy",
+                  "title": "Explore Italy",
+                  "img": "/tour-packages/italy.jpg",
+                  "text": "Visit historic cities, charming coastlines and delicious cuisine.",
+                  "days": "7 Days / 6 Nights"
+                },
+                {
+                  "country": "UK",
+                  "title": "London Highlights",
+                  "img": "/tour-packages/london.jpg",
+                  "text": "Explore iconic landmarks, rich history and vibrant culture.",
+                  "days": "6 Days / 5 Nights"
+                },
+                {
+                  "country": "USA",
+                  "title": "New York Explorer",
+                  "img": "/tour-packages/new-york.jpg",
+                  "text": "Discover famous landmarks, exciting city life and diverse culture.",
+                  "days": "5 Days / 4 Nights"
+                }
+              ]
+            }
+          }
+        },
+        "Destinations": {
+          "variants": {
+            "TravelDestinations1": {
+              "subtitle": "Popular Destinations",
+              "title1": "Explore Top",
+              "titleAccent": "Destinations",
+              "description": "Discover the most beautiful places around the world. From stunning cities to serene landscapes, find your next travel destination with us.",
+              "button": {
+                "text": "View All Destinations",
+                "url": "/destinations"
+              },
+              "details": {
+                "text": "Explore",
+                "url": "/destination-detail"
+              },
+              "destinations": [
+                {
+                  "country": "Italy",
+                  "title": "San Miguel",
+                  "img": "/destinations/san-miguel.jpg",
+                  "text": "Explore historic streets, charming coastlines and vibrant culture."
+                },
+                {
+                  "country": "Dubai",
+                  "title": "Burj Khalifa",
+                  "img": "/destinations/burj-khalifa.jpg",
+                  "text": "Experience modern architecture, luxury and unforgettable city views."
+                },
+                {
+                  "country": "Japan",
+                  "title": "Kyoto Temple",
+                  "img": "/destinations/kyoto-temple.jpg",
+                  "text": "Discover ancient temples, rich traditions and scenic beauty."
+                },
+                {
+                  "country": "Maldives",
+                  "title": "Maldives Island",
+                  "img": "/destinations/maldives-island.jpg",
+                  "text": "Relax on pristine beaches and enjoy crystal clear waters."
+                },
+                {
+                  "country": "France",
+                  "title": "Paris",
+                  "img": "/destinations/paris.jpg",
+                  "text": "Experience romance, art, history and world-famous landmarks."
+                },
+                {
+                  "country": "Switzerland",
+                  "title": "Interlaken",
+                  "img": "/destinations/interlaken.jpg",
+                  "text": "Enjoy breathtaking mountains, lakes and outdoor adventures."
+                },
+                {
+                  "country": "Thailand",
+                  "title": "Phuket",
+                  "img": "/destinations/phuket.jpg",
+                  "text": "Beautiful beaches, vibrant nightlife and amazing island experiences."
+                },
+                {
+                  "country": "Singapore",
+                  "title": "Marina Bay",
+                  "img": "/destinations/marina-bay.jpg",
+                  "text": "Modern attractions, shopping, food and stunning city views."
+                },
+                {
+                  "country": "USA",
+                  "title": "New York",
+                  "img": "/destinations/new-york.jpg",
+                  "text": "Explore iconic landmarks, diverse culture and exciting city life."
+                },
+                {
+                  "country": "Australia",
+                  "title": "Sydney",
+                  "img": "/destinations/sydney.jpg",
+                  "text": "Stunning beaches, famous landmarks and a relaxed coastal lifestyle."
+                },
+                {
+                  "country": "UK",
+                  "title": "London",
+                  "img": "/destinations/london.jpg",
+                  "text": "Rich history, iconic landmarks and a vibrant city experience."
+                },
+                {
+                  "country": "Indonesia",
+                  "title": "Bali",
+                  "img": "/destinations/bali.jpg",
+                  "text": "Tropical beaches, lush landscapes and unique cultural experiences."
+                }
+              ]
+            }
+          }
+        },
+        "DestinationDetail": {
+          "variants": {
+            "TravelDestinationDetail1": {
+              "images": [
+                "/destination-detail/main.jpg",
+                "/destination-detail/thumb-2.jpg",
+                "/destination-detail/thumb-3.jpg",
+                "/destination-detail/thumb-4.jpg"
+              ],
+              "location": "Thailand",
+              "title": "A Complete Guide for Travelers in Thailand",
+              "intro": "Thailand is a dream destination for travelers, offering a perfect mix of stunning beaches, vibrant cities, rich culture and delicious food. Whether you are looking for adventure, relaxation or cultural experiences, Thailand has something for everyone. In this guide, we will explore the best places to visit, things to do and useful travel tips to make your Thailand trip unforgettable.",
+              "goodToKnow": {
+                "title": "Good to Know",
+                "facts": [
+                  {
+                    "icon": "pin",
+                    "label": "Country",
+                    "value": "Thailand"
+                  },
+                  {
+                    "icon": "doc",
+                    "label": "Visa Requirement",
+                    "value": "Yes (for many countries)"
+                  },
+                  {
+                    "icon": "globe",
+                    "label": "Languages Spoken",
+                    "value": "Thai, English"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Per Person (Approx.)",
+                    "value": "₹50,000 – ₹80,000"
+                  },
+                  {
+                    "icon": "expand",
+                    "label": "Area",
+                    "value": "513,120 km²"
+                  },
+                  {
+                    "icon": "city",
+                    "label": "Main City",
+                    "value": "Bangkok"
+                  }
+                ]
+              },
+              "whyVisit": {
+                "title": "Why Visit Thailand?",
+                "text": "Thailand is known for its warm hospitality, breathtaking landscapes and diverse experiences. From beautiful islands and crystal-clear waters to historic temples and lively markets, the country offers a unique travel experience that suits every type of traveler."
+              },
+              "quote": "“Thailand is not just a destination, it’s an experience. A place where every moment brings a new adventure.”",
+              "experiences": {
+                "title": "Top Experiences in Thailand",
+                "items": [
+                  {
+                    "img": "/destination-detail/island-hopping.jpg",
+                    "title": "Island Hopping",
+                    "text": "Explore beautiful islands and enjoy crystal-clear waters."
+                  },
+                  {
+                    "img": "/destination-detail/cultural-tours.jpg",
+                    "title": "Cultural Tours",
+                    "text": "Visit ancient temples and experience rich traditions."
+                  },
+                  {
+                    "img": "/destination-detail/local-food.jpg",
+                    "title": "Local Food",
+                    "text": "Enjoy delicious Thai cuisine and vibrant street markets."
+                  }
+                ]
+              },
+              "finalThoughts": {
+                "title": "Final Thoughts",
+                "text": "Thailand is a destination that leaves a lasting impression. With its natural beauty, rich culture, friendly people and endless experiences, it is a perfect place for your next holiday. Start planning your trip today and create unforgettable memories in the Land of Smiles."
+              },
+              "info": {
+                "title": "Destination Information",
+                "items": [
+                  {
+                    "icon": "pin",
+                    "label": "Location:",
+                    "value": "Thailand"
+                  },
+                  {
+                    "icon": "timer",
+                    "label": "Best Time to Visit:",
+                    "value": "Nov – Feb"
+                  },
+                  {
+                    "icon": "clock",
+                    "label": "Duration:",
+                    "value": "5 – 7 Days"
+                  },
+                  {
+                    "icon": "users",
+                    "label": "Ideal For:",
+                    "value": "Families, Couples, Solo Travelers"
+                  },
+                  {
+                    "icon": "temple",
+                    "label": "Main Attractions:",
+                    "value": "Beaches, Temples, Night Markets"
+                  },
+                  {
+                    "icon": "money",
+                    "label": "Currency:",
+                    "value": "Thai Baht (THB)"
+                  },
+                  {
+                    "icon": "message",
+                    "label": "Language:",
+                    "value": "Thai, English"
+                  },
+                  {
+                    "icon": "sun",
+                    "label": "Weather:",
+                    "value": "Tropical (25°C – 32°C)"
+                  }
+                ],
+                "ratingLabel": "Rating:",
+                "ratingStars": 4,
+                "ratingText": "(4.8)"
+              },
+              "enquiry": {
+                "title": "Plan Your Trip",
+                "subtitle": "Fill out the form and our travel expert will get in touch with you.",
+                "buttonText": "Send Enquiry",
+                "sendIcon": false,
+                "successMessage": "Thank you! Our travel expert will contact you soon.",
+                "fields": [
+                  {
+                    "name": "name",
+                    "kind": "name",
+                    "icon": "user",
+                    "placeholder": "Your Name*",
+                    "label": "Your name",
+                    "required": true
+                  },
+                  {
+                    "name": "email",
+                    "kind": "email",
+                    "icon": "mail",
+                    "placeholder": "Your Email*",
+                    "label": "Your email",
+                    "required": true
+                  },
+                  {
+                    "name": "date",
+                    "kind": "date",
+                    "icon": "calendar",
+                    "placeholder": "Travel Date",
+                    "label": "Your travel date"
+                  },
+                  {
+                    "name": "travelers",
+                    "kind": "travelers",
+                    "icon": "users",
+                    "placeholder": "Number of Travelers",
+                    "label": "The number of travelers"
+                  },
+                  {
+                    "name": "message",
+                    "kind": "message",
+                    "icon": "message",
+                    "placeholder": "Your Message",
+                    "rows": 4
+                  }
+                ]
+              },
+              "popular": {
+                "title": "Popular Destinations",
+                "tripsLabel": "Trips",
+                "url": "/destination-detail",
+                "items": [
+                  {
+                    "name": "Bali, Indonesia",
+                    "trips": 120,
+                    "img": "/destination-detail/sidebar/bali.jpg"
+                  },
+                  {
+                    "name": "Paris, France",
+                    "trips": 98,
+                    "img": "/destination-detail/sidebar/paris.jpg"
+                  },
+                  {
+                    "name": "Dubai, UAE",
+                    "trips": 110,
+                    "img": "/destination-detail/sidebar/dubai.jpg"
+                  },
+                  {
+                    "name": "Kyoto, Japan",
+                    "trips": 76,
+                    "img": "/destination-detail/sidebar/kyoto.jpg"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "PackageDetail": {
+          "variants": {
+            "TravelPackageDetail1": {
+              "subtitle": "Travel Package",
+              "title1": "Package",
+              "titleAccent": "Detail",
+              "description": "Discover the perfect blend of adventure, relaxation and culture with our handpicked travel package.",
+              "image": {
+                "src": "/package-detail/main.jpg",
+                "alt": "Friends enjoying a coastal view"
+              },
+              "location": "Europe",
+              "title": "Europe Adventure Tour",
+              "price": "$1,200",
+              "priceUnit": "/ Per Person",
+              "duration": "7 Days / 6 Nights",
+              "cities": "Multiple Cities",
+              "ratingText": "4.8 (1,250 Reviews)",
+              "overview": "Explore the best of Europe with our specially curated tour package. Visit iconic landmarks, experience diverse cultures and create unforgettable memories on this amazing journey.",
+              "itineraryTitle": "Itinerary",
+              "itinerary": [
+                {
+                  "title": "Day 1: Departure",
+                  "text": "Depart from India and arrive at your destination.",
+                  "img": "/package-detail/day-1.jpg"
+                },
+                {
+                  "title": "Day 2: Paris",
+                  "text": "Explore the romantic city of Paris.",
+                  "img": "/package-detail/day-2.jpg"
+                },
+                {
+                  "title": "Day 3: Swiss Alps",
+                  "text": "Enjoy breathtaking views in the Swiss Alps.",
+                  "img": "/package-detail/day-3.jpg"
+                },
+                {
+                  "title": "Day 4: Rome",
+                  "text": "Visit the historic Colosseum in Rome.",
+                  "img": "/package-detail/day-4.jpg"
+                },
+                {
+                  "title": "Day 5: Return",
+                  "text": "Fly back home with unforgettable memories.",
+                  "img": "/package-detail/day-5.jpg"
+                }
+              ],
+              "highlightsTitle": "Package Highlights",
+              "highlights": [
+                {
+                  "icon": "plane",
+                  "label": "Round Trip Flights"
+                },
+                {
+                  "icon": "bed",
+                  "label": "Luxury Hotels"
+                },
+                {
+                  "icon": "car",
+                  "label": "Private Transfers"
+                },
+                {
+                  "icon": "utensils",
+                  "label": "Daily Breakfast"
+                },
+                {
+                  "icon": "camera",
+                  "label": "Sightseeing Tours"
+                },
+                {
+                  "icon": "headset",
+                  "label": "24/7 Support"
+                }
+              ],
+              "enquiry": {
+                "title": "Book This Package",
+                "subtitle": "Plan your dream trip today!",
+                "buttonText": "Book Now",
+                "sendIcon": true,
+                "successMessage": "Thank you! Our travel expert will contact you soon.",
+                "fields": [
+                  {
+                    "name": "name",
+                    "kind": "name",
+                    "icon": "user",
+                    "placeholder": "Your Name*",
+                    "label": "Your name",
+                    "required": true
+                  },
+                  {
+                    "name": "email",
+                    "kind": "email",
+                    "icon": "mail",
+                    "placeholder": "Your Email*",
+                    "label": "Your email",
+                    "required": true
+                  },
+                  {
+                    "name": "date",
+                    "kind": "date",
+                    "icon": "calendar",
+                    "placeholder": "Travel Date*",
+                    "label": "Your travel date",
+                    "required": true
+                  },
+                  {
+                    "name": "travelers",
+                    "kind": "travelers",
+                    "icon": "users",
+                    "placeholder": "Number of Travelers*",
+                    "label": "The number of travelers",
+                    "required": true
+                  }
+                ]
+              },
+              "popular": {
+                "title": "Popular Destinations",
+                "tripsLabel": "Trips",
+                "url": "/destination-detail",
+                "items": [
+                  {
+                    "name": "Paris, France",
+                    "trips": 98,
+                    "img": "/package-detail/sidebar/paris.jpg"
+                  },
+                  {
+                    "name": "Bali, Indonesia",
+                    "trips": 120,
+                    "img": "/package-detail/sidebar/bali.jpg"
+                  },
+                  {
+                    "name": "Santorini, Greece",
+                    "trips": 110,
+                    "img": "/package-detail/sidebar/santorini.jpg"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "TravelTestimonials1": {
+              "subtitle": "Clients Reviews",
+              "title1": "Traveller’s",
+              "titleAccent": "Testimonial",
+              "description": "Hear from our happy travelers who have experienced unforgettable journeys with us. Their stories inspire us to create even more memorable trips.",
+              "testimonials": [
+                {
+                  "name": "Priya Sharma",
+                  "city": "New Delhi, India",
+                  "avatar": "/home/testimonials/avatar-1.jpg",
+                  "scene": "/home/testimonials/scene-1.jpg",
+                  "text": "Our trip was perfectly planned and executed. Everything from accommodations to sightseeing was seamless. Truly a memorable experience!"
+                },
+                {
+                  "name": "Rahul Mehta",
+                  "city": "Mumbai, India",
+                  "avatar": "/home/testimonials/avatar-2.jpg",
+                  "scene": "/home/testimonials/scene-2.jpg",
+                  "text": "Amazing destinations, great planning, and excellent support throughout the journey. The team made our vacation stress-free and truly special."
+                },
+                {
+                  "name": "Anjali Verma",
+                  "city": "Bengaluru, India",
+                  "avatar": "/home/testimonials/avatar-3.jpg",
+                  "scene": "/home/testimonials/scene-3.jpg",
+                  "text": "We had an incredible family trip! The itinerary was well-organized and the hotels were fantastic. Highly recommend for anyone looking for a hassle-free travel experience."
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "TravelBlogs1": {
+              "subtitle": "Latest Blog",
+              "homeSubtitle": "Travel Stories",
+              "title1": "Our Recent",
+              "titleAccent": "Posts",
+              "description": "Discover travel tips, destination guides and inspiring stories to help you plan your next unforgettable journey.",
+              "button": {
+                "text": "View All Blog",
+                "url": "/blog"
+              },
+              "details": {
+                "text": "Read More",
+                "url": "/blog-detail"
+              },
+              "blogs": [
+                {
+                  "cat": "Travel Tips",
+                  "title": "10 Best Destinations for a Summer Vacation",
+                  "img": "/blog/blog-1.jpg",
+                  "text": "Explore the top destinations around the world that are perfect for your summer holiday.",
+                  "date": "12 Oct 2026"
+                },
+                {
+                  "cat": "Destinations",
+                  "title": "A Complete Guide to Exploring Thailand",
+                  "img": "/blog/blog-2.jpg",
+                  "text": "Discover the best places to visit, things to do and travel tips for an amazing Thailand trip.",
+                  "date": "10 Oct 2026"
+                },
+                {
+                  "cat": "Travel Guide",
+                  "title": "How to Plan a Perfect Budget Trip",
+                  "img": "/blog/blog-3.jpg",
+                  "text": "Learn simple tips to plan a memorable and budget-friendly trip without compromising on fun.",
+                  "date": "08 Oct 2026"
+                },
+                {
+                  "cat": "Travel Experience",
+                  "title": "Top 5 Offbeat Destinations You Must Visit",
+                  "img": "/blog/blog-4.jpg",
+                  "text": "Escape the crowds and explore these hidden gems for a unique travel experience.",
+                  "date": "05 Oct 2026"
+                },
+                {
+                  "cat": "Hotel & Stay",
+                  "title": "Best Resorts for a Relaxing Getaway",
+                  "img": "/blog/blog-5.jpg",
+                  "text": "Find the most beautiful resorts perfect for a peaceful and luxurious vacation.",
+                  "date": "02 Oct 2026"
+                },
+                {
+                  "cat": "Travel Tips",
+                  "title": "Essential Travel Tips for First-Time Travelers",
+                  "img": "/blog/blog-6.jpg",
+                  "text": "Make your first trip easy and stress-free with these essential travel tips.",
+                  "date": "28 Sep 2026"
+                },
+                {
+                  "cat": "Destinations",
+                  "title": "Exploring the Beauty of Europe",
+                  "img": "/blog/blog-7.jpg",
+                  "text": "A travel guide to the most beautiful cities, culture and experiences across Europe.",
+                  "date": "25 Sep 2026"
+                },
+                {
+                  "cat": "Travel Guide",
+                  "title": "Top Beach Destinations for Honeymoon",
+                  "img": "/blog/blog-8.jpg",
+                  "text": "Discover the most romantic beach destinations for an unforgettable honeymoon experience.",
+                  "date": "20 Sep 2026"
+                },
+                {
+                  "cat": "Adventure",
+                  "title": "Best Places for Adventure Lovers",
+                  "img": "/blog/blog-9.jpg",
+                  "text": "From mountain treks to water sports, explore the best adventure destinations worldwide.",
+                  "date": "18 Sep 2026"
+                },
+                {
+                  "cat": "Travel Experience",
+                  "title": "A Guide to the Maldives Islands",
+                  "img": "/blog/blog-10.jpg",
+                  "text": "Crystal clear waters, luxurious stays and unforgettable experiences await you in the Maldives.",
+                  "date": "15 Sep 2026"
+                },
+                {
+                  "cat": "Destinations",
+                  "title": "Top Cultural Destinations in Asia",
+                  "img": "/blog/blog-11.jpg",
+                  "text": "Explore the rich culture, history and traditions of Asia's most fascinating destinations.",
+                  "date": "12 Sep 2026"
+                },
+                {
+                  "cat": "Travel Tips",
+                  "title": "How to Travel Safely During Your Trip",
+                  "img": "/blog/blog-12.jpg",
+                  "text": "Important safety tips to keep in mind while traveling and make your journey smooth and enjoyable.",
+                  "date": "10 Sep 2026"
+                }
+              ]
+            }
+          }
+        },
+        "BlogDetail": {
+          "variants": {
+            "TravelBlogDetail1": {
+              "image": {
+                "src": "/blog-detail/main.jpg",
+                "alt": "Traveller in Thailand"
+              },
+              "date": "10 Oct 2026",
+              "author": "By Admin",
+              "category": "Travel Guide",
+              "title": "A Complete Guide to Exploring Thailand",
+              "intro": "Thailand is a dream destination for travelers, offering a perfect mix of stunning beaches, vibrant cities, rich culture and delicious food. Whether you are looking for adventure, relaxation or cultural experiences, Thailand has something for everyone. In this guide, we will explore the best places to visit, things to do and useful travel tips to make your Thailand trip unforgettable.",
+              "whyVisit": {
+                "title": "Why Visit Thailand?",
+                "text": "Thailand is known for its warm hospitality, breathtaking landscapes and diverse experiences. From beautiful islands and crystal-clear waters to historic temples and lively markets, the country offers a unique travel experience that suits every type of traveler."
+              },
+              "images": [
+                "/blog-detail/temple.jpg",
+                "/blog-detail/boats.jpg"
+              ],
+              "topDestinations": {
+                "title": "Top Destinations in Thailand",
+                "text": "From the bustling streets of Bangkok to the serene beaches of Phuket, Thailand offers a variety of destinations. Explore historic temples, enjoy island hopping, experience local markets and indulge in authentic Thai cuisine. Each destination has its own charm and makes your journey memorable."
+              },
+              "quote": "Thailand is not just a destination, it’s an experience. A place where every moment brings a new adventure.",
+              "tips": {
+                "title": "Travel Tips for Your Thailand Trip",
+                "items": [
+                  "Plan your trip according to the weather and season.",
+                  "Keep your travel documents and essentials ready.",
+                  "Try local food and street markets for an authentic experience.",
+                  "Respect the local culture and traditions.",
+                  "Book your accommodation and tours in advance."
+                ]
+              },
+              "finalThoughts": {
+                "title": "Final Thoughts",
+                "text": "Thailand is a destination that leaves a lasting impression. With its natural beauty, rich culture, friendly people and endless experiences, it is a perfect place for your next holiday. Start planning your trip today and create unforgettable memories in the Land of Smiles."
+              },
+              "bottomImage": "/blog-detail/final.jpg",
+              "recent": {
+                "title": "Recent Posts",
+                "url": "/blog-detail",
+                "items": [
+                  {
+                    "title": "10 Best Destinations for a Summer Vacation",
+                    "date": "12 Oct 2026",
+                    "img": "/blog/blog-10.jpg"
+                  },
+                  {
+                    "title": "A Complete Guide to Exploring Thailand",
+                    "date": "10 Oct 2026",
+                    "img": "/blog/blog-2.jpg"
+                  },
+                  {
+                    "title": "How to Plan a Perfect Budget Trip",
+                    "date": "08 Oct 2026",
+                    "img": "/blog/blog-3.jpg"
+                  },
+                  {
+                    "title": "Top 5 Offbeat Destinations You Must Visit",
+                    "date": "05 Oct 2026",
+                    "img": "/blog/blog-4.jpg"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "TravelGallery1": {
+              "subtitle": "Our Gallery",
+              "title1": "A Journey Through",
+              "titleAccent": "Beautiful Moments",
+              "description": "Explore our travel gallery and get inspired by stunning destinations, unforgettable experiences and scenic beauty from around the world.",
+              "imageAltPrefix": "Gallery photo",
+              "images": [
+                "/gallery/gallery-1.jpg",
+                "/gallery/gallery-2.jpg",
+                "/gallery/gallery-3.jpg",
+                "/gallery/gallery-4.jpg",
+                "/gallery/gallery-5.jpg",
+                "/gallery/gallery-6.jpg",
+                "/gallery/gallery-7.jpg",
+                "/gallery/gallery-8.jpg",
+                "/gallery/gallery-9.jpg",
+                "/gallery/gallery-10.jpg",
+                "/gallery/gallery-11.jpg",
+                "/gallery/gallery-12.jpg",
+                "/destinations/bali.jpg",
+                "/destinations/burj-khalifa.jpg",
+                "/destinations/interlaken.jpg",
+                "/destinations/kyoto-temple.jpg",
+                "/destinations/london.jpg",
+                "/destinations/maldives-island.jpg",
+                "/destinations/marina-bay.jpg",
+                "/destinations/new-york.jpg",
+                "/destinations/paris.jpg",
+                "/destinations/phuket.jpg",
+                "/destinations/san-miguel.jpg",
+                "/destinations/sydney.jpg",
+                "/tour-packages/bangkok-phuket.jpg",
+                "/tour-packages/island-escape.jpg",
+                "/tour-packages/italy.jpg",
+                "/tour-packages/japan.jpg",
+                "/tour-packages/langkawi.jpg",
+                "/tour-packages/london.jpg",
+                "/tour-packages/maldives.jpg",
+                "/tour-packages/modern-dubai.jpg",
+                "/tour-packages/new-york.jpg",
+                "/tour-packages/paris-city.jpg",
+                "/tour-packages/singapore.jpg",
+                "/tour-packages/swiss-alps.jpg",
+                "/blog/blog-1.jpg",
+                "/blog/blog-2.jpg",
+                "/blog/blog-3.jpg",
+                "/blog/blog-4.jpg",
+                "/blog/blog-5.jpg",
+                "/blog/blog-6.jpg",
+                "/blog/blog-7.jpg",
+                "/blog/blog-8.jpg",
+                "/blog/blog-9.jpg",
+                "/blog/blog-10.jpg",
+                "/blog/blog-11.jpg",
+                "/blog/blog-12.jpg"
+              ]
+            }
+          }
+        },
+        "Cta": {
+          "variants": {
+            "TravelCta1": {
+              "subtitle": "Let’s Travel",
+              "title1": "Ready to Explore",
+              "titleAccent": "Your Next Destination?",
+              "description": "Plan your perfect getaway with our customized travel packages and experience unforgettable journeys around the world.",
+              "button": {
+                "text": "Book Now",
+                "url": "/booking"
+              },
+              "image": {
+                "src": "/about/cta.jpg",
+                "alt": "Traveller with arms raised above the sea"
+              }
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "TravelTeam1": {
+              "subtitle": "Meet With Our",
+              "title1": "Tour",
+              "titleAccent": "Guide",
+              "description": "Our expert tour guides are passionate travelers who love to share their knowledge, helping you explore destinations with unique insights and memorable experiences.",
+              "members": [
+                {
+                  "name": "Priya Sharma",
+                  "role": "Tour Guide",
+                  "photo": "/about/guide-1.jpg",
+                  "cover": "/about/guide-cover-1.jpg",
+                  "text": "Specializes in beach destinations and cultural tours, ensuring you experience the best of every place."
+                },
+                {
+                  "name": "Rahul Mehta",
+                  "role": "Tour Guide",
+                  "photo": "/about/guide-2.jpg",
+                  "cover": "/about/guide-cover-2.jpg",
+                  "text": "Adventure travel expert with in-depth knowledge of mountain treks and offbeat destinations."
+                },
+                {
+                  "name": "Anjali Verma",
+                  "role": "Tour Guide",
+                  "photo": "/about/guide-3.jpg",
+                  "cover": "/about/guide-cover-3.jpg",
+                  "text": "Passionate about helping travelers explore tropical destinations and create unforgettable memories."
+                },
+                {
+                  "name": "Karan Malhotra",
+                  "role": "Tour Guide",
+                  "photo": "/about/guide-4.jpg",
+                  "cover": "/about/guide-cover-4.jpg",
+                  "text": "Expert in international tours, known for planning smooth and enjoyable travel experiences."
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "TravelContact1": {
+              "help": {
+                "subtitle": "Get In Touch",
+                "title1": "We're Here to",
+                "titleAccent": "Help You",
+                "description": "Have questions or need assistance with your travel plans? Our team is always ready to help you with the best travel solutions.",
+                "bgImage": "/contact/bg-cards.jpg",
+                "cards": [
+                  {
+                    "icon": "pin",
+                    "title": "Office Address",
+                    "lines": [
+                      "123 Ocean Drive,",
+                      "Miami Beach, FL 33139,",
+                      "United States"
+                    ]
+                  },
+                  {
+                    "icon": "phone",
+                    "title": "Phone Call",
+                    "lines": [
+                      "+1 0000000"
+                    ]
+                  },
+                  {
+                    "icon": "mail",
+                    "title": "E-Mail Us",
+                    "lines": [
+                      "info@xyz.com"
+                    ]
+                  },
+                  {
+                    "icon": "headset",
+                    "title": "Supports",
+                    "lines": [
+                      "24/7 customer support team",
+                      "ready to assist you."
+                    ]
+                  }
+                ]
+              },
+              "touch": {
+                "subtitle": "Contact Us",
+                "title1": "Get in",
+                "titleAccent": "Touch",
+                "description": "Have a question or need help planning your next trip? We’re here to assist you with the best travel solutions.",
+                "bgImage": "/contact/bg-form.jpg",
+                "details": [
+                  {
+                    "icon": "pin",
+                    "title": "Our Office Address",
+                    "lines": [
+                      "123 Ocean Drive, Miami Beach,",
+                      "FL 33139, United States"
+                    ]
+                  },
+                  {
+                    "icon": "phone",
+                    "title": "Phone Call",
+                    "lines": [
+                      "+1 0000000"
+                    ]
+                  },
+                  {
+                    "icon": "mail",
+                    "title": "E-Mail Us",
+                    "lines": [
+                      "info@xyz.com"
+                    ]
+                  },
+                  {
+                    "icon": "headset",
+                    "title": "Supports",
+                    "lines": [
+                      "24/7 customer support team",
+                      "ready to assist you."
+                    ]
+                  }
+                ]
+              },
+              "form": {
+                "subtitle": "Send us a message",
+                "title": "We’d Love to Hear from You",
+                "description": "Fill out the form below and our team will get back to you shortly.",
+                "buttonText": "Send Message",
+                "successMessage": "Message sent! We’ll get back to you shortly.",
+                "fields": [
+                  {
+                    "name": "name",
+                    "kind": "name",
+                    "icon": "user",
+                    "placeholder": "Enter Your Name",
+                    "label": "Your name",
+                    "required": true
+                  },
+                  {
+                    "name": "email",
+                    "kind": "email",
+                    "icon": "mail",
+                    "placeholder": "Enter Your Email",
+                    "label": "Your email",
+                    "required": true
+                  },
+                  {
+                    "name": "subject",
+                    "kind": "select",
+                    "icon": "list",
+                    "placeholder": "Select Subject",
+                    "label": "A subject",
+                    "required": true,
+                    "options": [
+                      "Tour Packages",
+                      "Flight Booking",
+                      "Hotel Booking",
+                      "Visa Assistance",
+                      "Other"
+                    ],
+                    "fullWidth": true
+                  },
+                  {
+                    "name": "message",
+                    "kind": "message",
+                    "icon": "message",
+                    "placeholder": "Write Message",
+                    "label": "Your message",
+                    "required": true,
+                    "fullWidth": true
+                  }
+                ]
+              },
+              "map": {
+                "title": "TourAvibe office location",
+                "src": "https://www.google.com/maps?q=Miami+Beach,+FL&z=12&output=embed"
+              }
+            }
+          }
+        },
+        "Booking": {
+          "variants": {
+            "TravelBooking1": {
+              "subtitle": "Book Now",
+              "title1": "Plan Your Next",
+              "titleAccent": "Adventure",
+              "description": "Fill out the form below and our travel experts will get back to you with the best packages and offers tailored to your needs.",
+              "image": {
+                "src": "/booking/side.jpg",
+                "alt": "Traveller relaxing on a jetty"
+              },
+              "form": {
+                "buttonText": "Book Now",
+                "successMessage": "Booking request received! Our travel expert will contact you soon.",
+                "fields": [
+                  {
+                    "name": "name",
+                    "kind": "name",
+                    "icon": "user",
+                    "placeholder": "Enter Your Name",
+                    "label": "Your name",
+                    "required": true
+                  },
+                  {
+                    "name": "email",
+                    "kind": "email",
+                    "icon": "mail",
+                    "placeholder": "Enter Your Email",
+                    "label": "Your email",
+                    "required": true
+                  },
+                  {
+                    "name": "phone",
+                    "kind": "phone",
+                    "icon": "phone",
+                    "placeholder": "Enter Your Mobile Number",
+                    "label": "Your mobile number",
+                    "required": true
+                  },
+                  {
+                    "name": "travelers",
+                    "kind": "select",
+                    "icon": "users",
+                    "placeholder": "Number of Travelers",
+                    "label": "The number of travelers",
+                    "required": true,
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4",
+                      "5",
+                      "6+"
+                    ]
+                  },
+                  {
+                    "name": "date",
+                    "kind": "date",
+                    "icon": "calendar",
+                    "placeholder": "Travel Date",
+                    "label": "Your travel date",
+                    "required": true
+                  },
+                  {
+                    "name": "destination",
+                    "kind": "select",
+                    "icon": "pin",
+                    "placeholder": "Select Destination",
+                    "label": "A destination",
+                    "required": true,
+                    "options": [
+                      "San Miguel, Italy",
+                      "Burj Khalifa, Dubai",
+                      "Kyoto Temple, Japan",
+                      "Maldives Island, Maldives",
+                      "Paris, France",
+                      "Interlaken, Switzerland",
+                      "Phuket, Thailand",
+                      "Marina Bay, Singapore",
+                      "New York, USA",
+                      "Sydney, Australia",
+                      "London, UK",
+                      "Bali, Indonesia"
+                    ]
+                  },
+                  {
+                    "name": "package",
+                    "kind": "select",
+                    "icon": "briefcase",
+                    "placeholder": "Select Tour Package",
+                    "options": [
+                      "Bangkok & Phuket",
+                      "Langkawi Getaway",
+                      "Paris City Tour",
+                      "Island Escape",
+                      "Modern Dubai",
+                      "Swiss Alps Adventure",
+                      "Singapore Explorer",
+                      "Discover Japan",
+                      "Maldives Paradise",
+                      "Explore Italy",
+                      "London Highlights",
+                      "New York Explorer"
+                    ],
+                    "fullWidth": true
+                  },
+                  {
+                    "name": "message",
+                    "kind": "message",
+                    "icon": "message",
+                    "placeholder": "Write Your Message...",
+                    "fullWidth": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Header": "TravelHeader1",
+          "Footer": "TravelFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "TravelHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "TravelAboutUs1"
+              },
+              {
+                "key": "Services",
+                "component": "TravelServices1"
+              },
+              {
+                "key": "Packages",
+                "component": "TravelPackages1"
+              },
+              {
+                "key": "Destinations",
+                "component": "TravelDestinations1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "TravelTestimonials1"
+              },
+              {
+                "key": "Blogs",
+                "component": "TravelBlogs1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "AboutUs",
+                "component": "TravelAboutUs1",
+                "props": {
+                  "variant": "page"
+                }
+              },
+              {
+                "key": "Cta",
+                "component": "TravelCta1"
+              },
+              {
+                "key": "Team",
+                "component": "TravelTeam1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "Services",
+                "component": "TravelServices1",
+                "props": {
+                  "showAll": true
+                }
+              }
+            ]
+          },
+          "destinations": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "Destinations",
+                "component": "TravelDestinations1",
+                "props": {
+                  "showAll": true
+                }
+              }
+            ]
+          },
+          "destinationDetail": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "DestinationDetail",
+                "component": "TravelDestinationDetail1"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "Gallery",
+                "component": "TravelGallery1"
+              }
+            ]
+          },
+          "packages": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "Packages",
+                "component": "TravelPackages1",
+                "props": {
+                  "showAll": true
+                }
+              }
+            ]
+          },
+          "packageDetail": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "PackageDetail",
+                "component": "TravelPackageDetail1"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "Blogs",
+                "component": "TravelBlogs1",
+                "props": {
+                  "showAll": true
+                }
+              }
+            ]
+          },
+          "blogDetail": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "BlogDetail",
+                "component": "TravelBlogDetail1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "Contact",
+                "component": "TravelContact1"
+              }
+            ]
+          },
+          "booking": {
+            "components": [
+              {
+                "key": "Breadcrumb",
+                "component": "PageBanner"
+              },
+              {
+                "key": "Booking",
+                "component": "TravelBooking1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

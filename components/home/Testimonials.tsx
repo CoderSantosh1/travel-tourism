@@ -3,10 +3,12 @@
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { testimonials } from "@/data/site-data";
+import { testimonialsData } from "@/data/site-data";
 import { SectionHeading } from "../ui";
 import Icon, { Stars } from "../Icon";
 import type { Testimonial } from "@/types/site";
+
+const { testimonials } = testimonialsData;
 
 // Repeat the three reviews so the carousel has four pages to cycle through.
 const pages = 4;
@@ -63,10 +65,10 @@ export default function Testimonials() {
 
       <div className="relative mx-auto max-w-[1200px] px-6">
         <SectionHeading
-          eyebrow="Clients Reviews"
-          title="Traveller’s"
-          accent="Testimonial"
-          text="Hear from our happy travelers who have experienced unforgettable journeys with us. Their stories inspire us to create even more memorable trips."
+          eyebrow={testimonialsData.subtitle}
+          title={testimonialsData.title1}
+          accent={testimonialsData.titleAccent}
+          text={testimonialsData.description}
         />
 
         <div className="relative mt-12">

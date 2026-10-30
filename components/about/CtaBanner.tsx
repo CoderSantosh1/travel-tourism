@@ -2,14 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { Reveal, SplitText, DrawLine, Parallax } from "../Motion";
 import Icon from "../Icon";
+import { ctaData } from "@/data/site-data";
 
 // "Ready to Explore" call-to-action band with the wave and flight path.
 export default function CtaBanner() {
+  const { subtitle, title1, titleAccent, description, button, image } = ctaData;
   return (
     <section className="relative overflow-hidden bg-gradient-to-r from-[#eef8fc] via-[#eef8fc] to-transparent">
       <div className="absolute inset-y-0 right-0 w-full md:w-[58%]">
         <Parallax speed={30} className="absolute -inset-y-10 inset-x-0">
-          <Image src="/about/cta.jpg" alt="Traveller with arms raised above the sea" fill sizes="(min-width:768px) 58vw, 100vw" className="object-cover object-right" />
+          <Image src={image.src} alt={image.alt} fill sizes="(min-width:768px) 58vw, 100vw" className="object-cover object-right" />
         </Parallax>
         <div className="absolute inset-0 bg-gradient-to-r from-[#eef8fc] via-[#eef8fc]/40 to-transparent md:via-transparent" />
       </div>
@@ -18,22 +20,22 @@ export default function CtaBanner() {
         <div className="max-w-xl">
           <Reveal className="flex items-center gap-4">
             <DrawLine className="h-[2px] w-12 bg-gold" />
-            <span className="text-sm font-semibold uppercase tracking-[0.25em] text-sky">Let’s Travel</span>
+            <span className="text-sm font-semibold uppercase tracking-[0.25em] text-sky">{subtitle}</span>
             <DrawLine className="h-[2px] w-12 bg-gold" />
           </Reveal>
           <h2 className="mt-3 font-serif text-4xl font-bold leading-tight text-navy sm:text-5xl">
-            <SplitText text="Ready to Explore" />
+            <SplitText text={title1} />
             <br />
-            <SplitText text="Your Next Destination?" className="text-sky" delay={0.25} />
+            <SplitText text={titleAccent} className="text-sky" delay={0.25} />
           </h2>
           <Reveal delay={0.2}>
             <p className="mt-4 max-w-md text-[17px] leading-relaxed text-slate-600">
-              Plan your perfect getaway with our customized travel packages and experience unforgettable journeys around the world.
+              {description}
             </p>
           </Reveal>
           <Reveal delay={0.35} className="mt-7">
-            <Link href="/booking" className="group inline-flex items-center gap-3 rounded-full bg-sun px-10 py-3.5 font-semibold text-navy shadow-lg shadow-sun/40 transition-all hover:-translate-y-0.5 hover:bg-gold">
-              Book Now <Icon name="arrow" className="h-5 w-5 transition-transform group-hover:translate-x-1.5" />
+            <Link href={button.url} className="group inline-flex items-center gap-3 rounded-full bg-sun px-10 py-3.5 font-semibold text-navy shadow-lg shadow-sun/40 transition-all hover:-translate-y-0.5 hover:bg-gold">
+              {button.text} <Icon name="arrow" className="h-5 w-5 transition-transform group-hover:translate-x-1.5" />
             </Link>
           </Reveal>
         </div>

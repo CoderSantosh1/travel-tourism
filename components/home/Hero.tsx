@@ -6,8 +6,10 @@ import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion"
 import { useEffect, useRef, useState } from "react";
 import Icon from "../Icon";
 import { ease } from "../Motion";
+import { heroData } from "@/data/site-data";
 
-const slides = ["/home/hero-1.jpg", "/home/hero-2.jpg", "/home/hero-3.jpg"];
+const { slides, subtitle, title1, titleHighlight, title2, description, primaryButton, secondaryButton } = heroData;
+const highlightCount = titleHighlight.split(" ").length;
 
 export default function Hero() {
   const [i, setI] = useState(0);
@@ -42,17 +44,17 @@ export default function Hero() {
 
       <motion.div style={{ y: textY }} className="relative mx-auto flex h-full max-w-[1400px] flex-col justify-center px-6 sm:px-16">
         <motion.div initial={{ opacity: 0, x: -40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3, ease }} className="flex items-center gap-4">
-          <span className="font-script text-3xl text-white sm:text-4xl">Explore the World with Us</span>
+          <span className="font-script text-3xl text-white sm:text-4xl">{subtitle}</span>
           <motion.span initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ duration: 0.8, delay: 1 }} className="hidden h-[3px] w-16 origin-left rounded bg-brand sm:block" />
         </motion.div>
 
         <h1 className="mt-4 font-serif text-[2.6rem] font-bold leading-[1.08] text-white sm:text-6xl lg:text-7xl">
-          {[["Let’s", "Make", "Your"], ["Best", "Trip", "With", "Us"]].map((line, li) => (
+          {[title1.split(" "), `${titleHighlight} ${title2}`.split(" ")].map((line, li) => (
             <span key={li} className="block">
               {line.map((w, wi) => (
                 <span key={w} className="inline-block overflow-hidden pb-2 align-bottom">
                   <motion.span
-                    className={`inline-block ${li === 1 && wi < 2 ? "text-brand" : ""}`}
+                    className={`inline-block ${li === 1 && wi < highlightCount ? "text-brand" : ""}`}
                     initial={{ y: "110%" }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.9, delay: 0.5 + li * 0.25 + wi * 0.08, ease }}
@@ -66,16 +68,16 @@ export default function Hero() {
         </h1>
 
         <motion.p initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1.2 }} className="mt-5 max-w-lg text-[17px] leading-relaxed text-white/95">
-          Discover breathtaking destinations, unforgettable experiences and memories that last a lifetime with TourAvibe.
+          {description}
         </motion.p>
 
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1.45 }} className="mt-8 flex flex-wrap gap-4">
-          <Link href="/tour-packages" className="group relative overflow-hidden rounded-full bg-brand px-8 py-3.5 font-medium text-white shadow-lg shadow-brand/40">
+          <Link href={primaryButton.url} className="group relative overflow-hidden rounded-full bg-brand px-8 py-3.5 font-medium text-white shadow-lg shadow-brand/40">
             <span className="absolute inset-0 translate-y-full bg-white transition-transform duration-500 group-hover:translate-y-0" />
-            <span className="relative flex items-center gap-2 transition-colors group-hover:text-brand">Explore Packages <Icon name="arrow" className="h-4 w-4" /></span>
+            <span className="relative flex items-center gap-2 transition-colors group-hover:text-brand">{primaryButton.text} <Icon name="arrow" className="h-4 w-4" /></span>
           </Link>
-          <Link href="/contact" className="rounded-full border-2 border-white/80 px-8 py-3.5 font-medium text-white backdrop-blur-sm transition hover:bg-white hover:text-navy">
-            Contact Us
+          <Link href={secondaryButton.url} className="rounded-full border-2 border-white/80 px-8 py-3.5 font-medium text-white backdrop-blur-sm transition hover:bg-white hover:text-navy">
+            {secondaryButton.text}
           </Link>
         </motion.div>
       </motion.div>
