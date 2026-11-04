@@ -14,7 +14,7 @@ export function EnquiryCard({ form }: { form: EnquiryFormData }) {
   return (
     <Reveal from="right" className="relative overflow-hidden rounded-xl bg-navy p-7 text-white shadow-xl">
       <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-sky/20 blur-2xl" />
-      <h3 className="font-serif text-3xl font-bold">{title}</h3>
+      <h3 className="text-balance font-serif text-2xl font-bold sm:text-3xl">{title}</h3>
       <DrawLine className="mt-2 h-[3px] w-14 rounded bg-gold" />
       <p className="mt-3 text-white/85">{subtitle}</p>
       <AnimatedForm dark className="mt-6 space-y-4" success={successMessage}>
@@ -31,7 +31,7 @@ export function PopularList({ data, compact = false }: { data: PopularData; comp
   const { title, tripsLabel, url, items } = data;
   return (
     <Reveal from="right" className="rounded-xl bg-white p-6 shadow-[0_10px_35px_rgba(11,37,69,0.08)]">
-      <h3 className="font-serif text-3xl font-bold text-navy">{title}</h3>
+      <h3 className="text-balance font-serif text-2xl font-bold text-navy sm:text-3xl">{title}</h3>
       <DrawLine className="mt-2 h-[3px] w-14 rounded bg-gold" />
       <Stagger className="mt-6 space-y-4" stagger={0.1}>
         {items.map((d) => (

@@ -44,7 +44,7 @@ export function ServicesSection({
   };
 
   return (
-    <section ref={sectionRef} className="relative overflow-hidden bg-gradient-to-b from-[#f1f9fc] to-white py-20">
+    <section ref={sectionRef} className="relative overflow-hidden bg-gradient-to-b from-[#f1f9fc] to-white py-14 sm:py-20">
       {/* Floating plane */}
       <div className="pointer-events-none absolute right-[8%] top-12 hidden animate-float-slow text-sky lg:block">
         <Icon
@@ -92,7 +92,7 @@ export function ServicesSection({
 }
 export function PackagesSection({ items = packagesData.packages.slice(0, 4), home = false, button = true }: { items?: TourPackage[]; home?: boolean; button?: boolean }) {
   return (
-    <section className="bg-mist py-20">
+    <section className="bg-mist pb-8 pt-14 sm:pb-12 sm:pt-20">
       <div className="mx-auto max-w-[1300px] px-6">
         <SectionHeading
           eyebrow={packagesData.subtitle}
@@ -113,8 +113,8 @@ export function PackagesSection({ items = packagesData.packages.slice(0, 4), hom
 
 export function DestinationsSection({ items = destinationsData.destinations.slice(0, 4), button = true }: { items?: Destination[]; button?: boolean }) {
   return (
-    <section className="bg-gradient-to-b from-mist to-[#eef8fc] py-20">
-      <div className="mx-auto max-w-325px px-6">
+    <section className="bg-gradient-to-b from-mist to-[#eef8fc] pb-8 pt-10 sm:pb-12 sm:pt-16">
+      <div className="mx-auto max-w-[1300px] px-6">
         <SectionHeading
           eyebrow={destinationsData.subtitle}
           title={destinationsData.title1}
@@ -170,7 +170,7 @@ export function BlogSection({
   };
 
   return (
-    <section ref={sectionRef} className="bg-mist py-20">
+    <section ref={sectionRef} className="bg-mist py-14 sm:py-20">
       <div className="mx-auto max-w-[1300px] px-6">
         <SectionHeading
           eyebrow={eyebrow || blogsData.subtitle}

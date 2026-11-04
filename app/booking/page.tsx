@@ -32,7 +32,7 @@ export default function BookingPage() {
               <AnimatedForm className="grid gap-5 sm:grid-cols-2" success={data.form.successMessage}>
                 {data.form.fields.map((f) => <InputField key={f.name} {...f} />)}
                 <button className="group relative overflow-hidden rounded-full bg-sun py-4 text-xl font-semibold text-navy shadow-lg shadow-sun/40 transition-transform hover:-translate-y-0.5 sm:col-span-2">
-                  <span className="absolute inset-0 -translate-x-full bg-gold transition-transform duration-500 group-hover:translate-x-0" />
+                  <span className="absolute inset-0 origin-left scale-x-0 bg-gold transition-transform duration-500 group-hover:scale-x-100" />
                   <span className="relative flex items-center justify-center gap-3">
                     <Icon name="send" className="h-6 w-6 transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1" fill="currentColor" /> {data.form.buttonText}
                   </span>

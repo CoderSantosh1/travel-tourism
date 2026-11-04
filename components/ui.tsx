@@ -9,20 +9,22 @@ interface SectionHeadingProps {
   accent?: string;
   text?: string;
   align?: "center" | "left";
+  /** Keep the heading on one line from tablet width up. */
+  singleLine?: boolean;
   className?: string;
 }
 
 // Eyebrow + two-tone heading + intro used at the top of most sections.
-export function SectionHeading({ eyebrow, title, accent, text, align = "center", className = "" }: SectionHeadingProps) {
+export function SectionHeading({ eyebrow, title, accent, text, align = "center", singleLine = false, className = "" }: SectionHeadingProps) {
   const center = align === "center";
   return (
-    <div className={`${center ? "mx-auto text-center" : ""} max-w-3xl ${className}`}>
-      <Reveal className={`flex items-center gap-4 ${center ? "justify-center" : ""}`}>
-        {center && <DrawLine className="h-[2px] w-12 bg-gold" />}
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-sky">{eyebrow}</span>
-        <DrawLine className="h-[2px] w-12 bg-gold" />
+    <div className={`${center ? "mx-auto text-center" : ""} ${singleLine ? "max-w-5xl" : "max-w-3xl"} ${className}`}>
+      <Reveal className={`flex items-center gap-3 sm:gap-4 ${center ? "justify-center" : ""}`}>
+        {center && <DrawLine className="h-[2px] w-8 shrink-0 bg-gold sm:w-12" />}
+        <span className="whitespace-nowrap text-xs font-semibold uppercase tracking-[0.18em] text-sky sm:text-sm sm:tracking-[0.25em]">{eyebrow}</span>
+        <DrawLine className="h-[2px] w-8 shrink-0 bg-gold sm:w-12" />
       </Reveal>
-      <h2 className="mt-3 font-serif text-4xl font-bold leading-tight text-navy sm:text-5xl">
+      <h2 className={`mt-3 text-balance font-serif text-[2rem] font-bold leading-tight text-navy sm:text-5xl ${singleLine ? "md:whitespace-nowrap" : ""}`}>
         <SplitText text={title} /> {accent && <SplitText text={accent} className="text-sky" delay={0.25} />}
       </h2>
       {text && (
@@ -38,7 +40,7 @@ export function SectionHeading({ eyebrow, title, accent, text, align = "center",
 export function BlockTitle({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
     <div className={className}>
-      <h3 className="font-serif text-3xl font-bold text-navy">{children}</h3>
+      <h3 className="text-balance font-serif text-2xl font-bold text-navy sm:text-3xl">{children}</h3>
       <DrawLine className="mt-2 h-[3px] w-14 rounded bg-gold" />
     </div>
   );

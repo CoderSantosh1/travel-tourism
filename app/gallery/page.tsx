@@ -10,12 +10,13 @@ export default function GalleryPage() {
     <>
       <PageBanner data={common.galleryBreadcrumb} />
       <section className="bg-mist py-20">
-        <div className="mx-auto max-w-325px px-6">
+        <div className="mx-auto max-w-[1300px] px-6">
           <SectionHeading
             eyebrow={galleryData.subtitle}
             title={galleryData.title1}
             accent={galleryData.titleAccent}
             text={galleryData.description}
+            singleLine
           />
           <GalleryGrid />
         </div>

@@ -67,7 +67,7 @@ export default function Header() {
             href={headerData.bookingButton.url}
             className="group relative hidden overflow-hidden rounded-xl bg-brand px-5 py-2.5 font-medium text-white xl:px-7 xl:py-3 shadow-[0_6px_18px_rgba(217,85,43,0.35)] transition-transform hover:-translate-y-0.5 sm:inline-block"
           >
-            <span className="absolute inset-0 -translate-x-full bg-navy transition-transform duration-500 group-hover:translate-x-0" />
+            <span className="absolute inset-0 origin-left scale-x-0 bg-navy transition-transform duration-500 group-hover:scale-x-100" />
             <span className="relative">{headerData.bookingButton.text}</span>
           </Link>
           <button onClick={() => setOpen(!open)} className="grid h-11 w-11 place-items-center rounded-lg bg-mist text-navy lg:hidden" aria-label="Toggle menu">

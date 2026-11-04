@@ -21,7 +21,7 @@ export default function DestinationDetailPage() {
             <Reveal className="mt-8 flex items-center gap-2 font-semibold uppercase text-sky">
               <Icon name="pin" className="h-5 w-5" /> {data.location}
             </Reveal>
-            <h2 className="mt-2 font-serif text-4xl font-bold leading-tight text-navy sm:text-5xl">
+            <h2 className="mt-2 text-balance font-serif text-[2rem] font-bold leading-tight text-navy sm:text-5xl">
               <SplitText text={data.title} />
             </h2>
             <Reveal delay={0.2}>
@@ -82,7 +82,7 @@ export default function DestinationDetailPage() {
 
           <aside className="space-y-8">
             <Reveal from="right" className="rounded-xl bg-white p-6 shadow-[0_10px_35px_rgba(11,37,69,0.08)]">
-              <h3 className="font-serif text-3xl font-bold text-navy">{data.info.title}</h3>
+              <h3 className="text-balance font-serif text-2xl font-bold text-navy sm:text-3xl">{data.info.title}</h3>
               <DrawLine className="mt-2 h-[3px] w-14 rounded bg-gold" />
               <ul className="mt-5 divide-y divide-slate-100">
                 {data.info.items.map(({ icon, label, value }) => (

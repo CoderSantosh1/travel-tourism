@@ -27,7 +27,7 @@ export default function PackageDetailPage() {
               <div className="mt-6 flex flex-wrap items-start justify-between gap-4">
                 <Reveal>
                   <p className="flex items-center gap-2 font-serif text-xl font-semibold text-sky"><Icon name="pin" className="h-5 w-5" /> {data.location}</p>
-                  <h2 className="font-serif text-4xl font-bold text-navy sm:text-5xl">{data.title}</h2>
+                  <h2 className="text-balance font-serif text-[2rem] font-bold leading-tight text-navy sm:text-5xl">{data.title}</h2>
                 </Reveal>
                 <Reveal from="right" delay={0.2}>
                   <div className="rounded-lg bg-navy px-6 py-3 text-white shadow-lg">
@@ -49,7 +49,7 @@ export default function PackageDetailPage() {
 
               <Reveal className="mt-8 flex items-center gap-4">
                 <DrawLine className="h-[3px] w-12 rounded bg-gold" />
-                <h3 className="font-serif text-3xl font-bold text-navy">{data.itineraryTitle}</h3>
+                <h3 className="font-serif text-2xl font-bold text-navy sm:text-3xl">{data.itineraryTitle}</h3>
               </Reveal>
 
               <Stagger className="relative mt-6 space-y-5" stagger={0.15}>
@@ -75,7 +75,7 @@ export default function PackageDetailPage() {
 
             <aside className="space-y-8">
               <Reveal from="right" className="rounded-xl bg-white p-6 shadow-[0_10px_35px_rgba(11,37,69,0.08)]">
-                <h3 className="font-serif text-3xl font-bold text-navy">{data.highlightsTitle}</h3>
+                <h3 className="text-balance font-serif text-2xl font-bold text-navy sm:text-3xl">{data.highlightsTitle}</h3>
                 <DrawLine className="mt-2 h-[3px] w-16 rounded bg-gold" />
                 <Stagger className="mt-6 space-y-5" stagger={0.08}>
                   {data.highlights.map(({ icon, label }) => (

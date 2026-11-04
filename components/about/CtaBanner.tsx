@@ -20,10 +20,10 @@ export default function CtaBanner() {
         <div className="max-w-xl">
           <Reveal className="flex items-center gap-4">
             <DrawLine className="h-[2px] w-12 bg-gold" />
-            <span className="text-sm font-semibold uppercase tracking-[0.25em] text-sky">{subtitle}</span>
+            <span className="whitespace-nowrap text-xs font-semibold uppercase tracking-[0.18em] text-sky sm:text-sm sm:tracking-[0.25em]">{subtitle}</span>
             <DrawLine className="h-[2px] w-12 bg-gold" />
           </Reveal>
-          <h2 className="mt-3 font-serif text-4xl font-bold leading-tight text-navy sm:text-5xl">
+          <h2 className="mt-3 font-serif text-[2rem] font-bold leading-tight text-navy sm:text-5xl">
             <SplitText text={title1} />
             <br />
             <SplitText text={titleAccent} className="text-sky" delay={0.25} />

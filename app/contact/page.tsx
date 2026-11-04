@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-mist/95 via-mist/80 to-mist/95" />
         <div className="relative mx-auto max-w-[1100px] px-6">
           <SectionHeading eyebrow={help.subtitle} title={help.title1} accent={help.titleAccent} text={help.description} />
-          <Stagger className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <Stagger className="mt-14 grid gap-x-6 gap-y-14 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4">
             {help.cards.map((c) => (
               <StaggerItem key={c.title} from="flip">
                 <div className="group relative h-full rounded-xl bg-white/95 px-5 pb-7 pt-14 text-center shadow-[0_10px_35px_rgba(11,37,69,0.08)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_50px_rgba(27,163,198,0.2)]">
@@ -59,12 +59,12 @@ export default function ContactPage() {
               ))}
             </Stagger>
 
-            <Reveal from="right" className="rounded-2xl bg-white p-8 shadow-[0_20px_60px_rgba(11,37,69,0.12)] sm:p-11">
+            <Reveal from="right" className="rounded-2xl bg-white p-6 shadow-[0_20px_60px_rgba(11,37,69,0.12)] sm:p-11">
               <div className="flex items-center gap-3">
-                <DrawLine className="h-[2px] w-9 bg-gold" />
-                <span className="text-sm font-semibold uppercase tracking-wide text-sky">{form.subtitle}</span>
+                <DrawLine className="h-[2px] w-9 shrink-0 bg-gold" />
+                <span className="whitespace-nowrap text-xs font-semibold uppercase tracking-wide text-sky sm:text-sm">{form.subtitle}</span>
               </div>
-              <h3 className="mt-2 font-serif text-4xl font-bold text-navy">{form.title}</h3>
+              <h3 className="mt-2 text-balance font-serif text-[1.75rem] font-bold leading-tight text-navy sm:text-4xl">{form.title}</h3>
               <p className="mt-3 text-slate-500">{form.description}</p>
               <AnimatedForm className="mt-7 grid gap-5 sm:grid-cols-2" success={form.successMessage}>
                 {form.fields.map((f) => <InputField key={f.name} {...f} />)}

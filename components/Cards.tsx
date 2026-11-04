@@ -8,17 +8,17 @@ import type { Service, TourPackage, Destination, BlogPost } from "@/types/site";
 
 export function ServiceCard({ s }: { s: Service }) {
   return (
-    <div className="group h-full rounded-2xl bg-white p-1 shadow-[0_10px_40px_rgba(11,37,69,0.08)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_50px_rgba(27,163,198,0.25)]">
+    <div className="group flex h-full flex-col rounded-2xl bg-white p-1 shadow-[0_10px_40px_rgba(11,37,69,0.08)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_50px_rgba(27,163,198,0.25)]">
       <div className="shine relative h-[150px] overflow-hidden rounded-t-xl sm:h-[170px]">
         <Image src={s.img} alt={s.title} fill sizes="(min-width:1024px) 25vw, (min-width:640px) 50vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-110" />
       </div>
-      <div className="relative px-5 pb-6 pt-11 text-center">
+      <div className="relative flex flex-1 flex-col items-center px-5 pb-6 pt-11 text-center">
         <span className="absolute -top-8 left-1/2 grid h-16 w-16 -translate-x-1/2 place-items-center rounded-full border-4 border-white bg-[#e2f6fb] text-sky shadow-md transition-all duration-500 group-hover:rotate-[360deg] group-hover:bg-sky group-hover:text-white">
           <Icon name={s.icon} className="h-7 w-7" />
         </span>
         <h3 className="font-serif text-2xl font-bold text-navy">{s.title}</h3>
-        <p className="mx-auto mt-2 max-w-[250px] text-[15px] leading-relaxed text-muted">{s.text}</p>
-        <Link href={servicesData.readMore.url} className="mt-5 inline-flex items-center gap-2 rounded-full border-2 border-sky px-8 py-2 text-sm font-semibold text-sky transition-all duration-300 hover:bg-sky hover:text-white">
+        <p className="mx-auto mb-5 mt-2 max-w-[250px] text-[15px] leading-relaxed text-muted">{s.text}</p>
+        <Link href={servicesData.readMore.url} className="mt-auto inline-flex items-center gap-2 rounded-full border-2 border-sky px-8 py-2 text-sm font-semibold text-sky transition-all duration-300 hover:bg-sky hover:text-white">
           {servicesData.readMore.text} <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Link>
       </div>
@@ -28,18 +28,18 @@ export function ServiceCard({ s }: { s: Service }) {
 
 export function PackageCard({ p, home = false }: { p: TourPackage; home?: boolean }) {
   return (
-    <div className="group h-full overflow-hidden rounded-xl bg-white shadow-[0_10px_35px_rgba(11,37,69,0.09)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_50px_rgba(11,37,69,0.18)]">
-      <div className="shine relative h-[200px] overflow-hidden">
+    <div className="group flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-[0_10px_35px_rgba(11,37,69,0.09)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_50px_rgba(11,37,69,0.18)]">
+      <div className="shine relative h-[200px] shrink-0 overflow-hidden">
         <Image src={home && p.homeImg ? p.homeImg : p.img} alt={p.title} fill sizes="(min-width:1024px) 25vw, (min-width:640px) 50vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-110" />
         <span className="absolute left-3 top-3 -translate-y-12 rounded-full bg-brand px-3 py-1 text-xs font-semibold text-white opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
           {packagesData.badgeText}
         </span>
       </div>
-      <div className="p-5">
+      <div className="flex flex-1 flex-col p-5">
         <p className="text-xs font-semibold uppercase tracking-wide text-sky">{p.country}</p>
         <h3 className="mt-1 font-serif text-2xl font-bold text-navy transition-colors group-hover:text-sky">{p.title}</h3>
         <p className="mt-1 text-[15px] leading-snug text-muted">{p.text}</p>
-        <div className="mt-4 flex items-center justify-between gap-2">
+        <div className="mt-auto flex items-center justify-between gap-2 pt-4">
           <span className="flex items-center gap-1.5 whitespace-nowrap text-[13px] text-muted">
             <Icon name="clock" className="h-4 w-4 shrink-0 text-sky" /> {p.days}
           </span>

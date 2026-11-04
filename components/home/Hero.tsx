@@ -73,7 +73,7 @@ export default function Hero() {
 
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1.45 }} className="mt-8 flex flex-wrap gap-4">
           <Link href={primaryButton.url} className="group relative overflow-hidden rounded-full bg-brand px-8 py-3.5 font-medium text-white shadow-lg shadow-brand/40">
-            <span className="absolute inset-0 translate-y-full bg-white transition-transform duration-500 group-hover:translate-y-0" />
+            <span className="absolute inset-0 origin-bottom scale-y-0 bg-white transition-transform duration-500 group-hover:scale-y-100" />
             <span className="relative flex items-center gap-2 transition-colors group-hover:text-brand">{primaryButton.text} <Icon name="arrow" className="h-4 w-4" /></span>
           </Link>
           <Link href={secondaryButton.url} className="rounded-full border-2 border-white/80 px-8 py-3.5 font-medium text-white backdrop-blur-sm transition hover:bg-white hover:text-navy">

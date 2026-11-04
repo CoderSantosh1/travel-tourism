@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { Fragment, useRef } from "react";
 import Icon from "./Icon";
 import { common } from "@/data/site-data";
 import type { Breadcrumb } from "@/types/site";
@@ -31,18 +31,29 @@ export default function PageBanner({ data }: { data: Breadcrumb }) {
       <div className="absolute inset-0 bg-gradient-to-b from-navy/30 via-navy/20 to-navy/50" />
 
       <motion.div style={{ opacity: fade }} className="relative flex h-full flex-col items-center justify-center px-4 text-center">
-        <h1 className="font-serif text-5xl font-bold text-white drop-shadow-lg sm:text-6xl md:text-7xl">
-          {title.split("").map((ch, i) => (
-            <motion.span
-              key={i}
-              className="inline-block"
-              initial={{ opacity: 0, y: 60, rotateX: -90 }}
-              animate={{ opacity: 1, y: 0, rotateX: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 + i * 0.04, ease: [0.22, 1, 0.36, 1] }}
-            >
-              {ch === " " ? " " : ch}
-            </motion.span>
-          ))}
+        <h1 className="text-balance font-serif text-[2.5rem] font-bold leading-tight text-white drop-shadow-lg sm:text-6xl md:text-7xl">
+          {title.split(" ").map((word, wi, words) => {
+            // letters animate one by one, but a word never splits across lines
+            const start = words.slice(0, wi).join(" ").length + (wi ? 1 : 0);
+            return (
+              <Fragment key={wi}>
+                <span className="inline-block whitespace-nowrap">
+                  {word.split("").map((ch, ci) => (
+                    <motion.span
+                      key={ci}
+                      className="inline-block"
+                      initial={{ opacity: 0, y: 60, rotateX: -90 }}
+                      animate={{ opacity: 1, y: 0, rotateX: 0 }}
+                      transition={{ duration: 0.6, delay: 0.3 + (start + ci) * 0.04, ease: [0.22, 1, 0.36, 1] }}
+                    >
+                      {ch}
+                    </motion.span>
+                  ))}
+                </span>
+                {wi < words.length - 1 && " "}
+              </Fragment>
+            );
+          })}
         </h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -27,7 +27,7 @@ export default function BlogDetailPage() {
               <span className="flex items-center gap-2"><Icon name="folder" className="h-5 w-5 text-sky" /> {data.category}</span>
             </Reveal>
 
-            <h1 className="mt-4 font-serif text-4xl font-bold leading-tight text-navy sm:text-5xl">
+            <h1 className="mt-4 text-balance font-serif text-[2rem] font-bold leading-tight text-navy sm:text-5xl">
               <SplitText text={data.title} />
             </h1>
             <Reveal delay={0.2}>
@@ -86,7 +86,7 @@ export default function BlogDetailPage() {
 
           <aside>
             <Reveal from="right" className="sticky top-24 rounded-xl bg-white p-6 shadow-[0_10px_35px_rgba(11,37,69,0.08)]">
-              <h3 className="font-serif text-3xl font-bold text-navy">{data.recent.title}</h3>
+              <h3 className="font-serif text-2xl font-bold text-navy sm:text-3xl">{data.recent.title}</h3>
               <DrawLine className="mt-2 h-[3px] w-14 rounded bg-gold" />
               <Stagger className="mt-6 divide-y divide-slate-100" stagger={0.1}>
                 {data.recent.items.map((r) => (

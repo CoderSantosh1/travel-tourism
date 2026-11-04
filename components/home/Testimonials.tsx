@@ -55,7 +55,7 @@ export default function Testimonials() {
   const order = testimonials.map((_, k) => testimonials[(k + page) % testimonials.length]);
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#eef8fc] to-mist py-20">
+    <section className="relative overflow-hidden bg-gradient-to-b from-[#eef8fc] to-mist pb-10 pt-10 sm:pb-12 sm:pt-16">
       <div className="pointer-events-none absolute left-[15%] top-16 hidden animate-float text-sky/60 lg:block">
         <Icon name="plane" className="h-14 w-14 rotate-45" fill="currentColor" strokeWidth={0} />
       </div>
@@ -71,7 +71,7 @@ export default function Testimonials() {
           text={testimonialsData.description}
         />
 
-        <div className="relative mt-12">
+        <div className="relative mt-10 sm:mt-12">
           <AnimatePresence mode="wait" custom={dir}>
             <motion.div
               key={page}
@@ -91,7 +91,7 @@ export default function Testimonials() {
           </AnimatePresence>
         </div>
 
-        <div className="mt-10 flex items-center justify-center gap-4">
+        <div className="mt-8 flex items-center justify-center gap-4">
           <button onClick={() => go(-1)} className="grid h-10 w-10 place-items-center rounded-full bg-white text-navy shadow transition hover:bg-sky hover:text-white" aria-label="Previous">
             <Icon name="arrow" className="h-4 w-4 rotate-180" />
           </button>
