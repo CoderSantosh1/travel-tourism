@@ -33,7 +33,7 @@ export default function Footer() {
       <div className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sky/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 -left-24 h-80 w-80 rounded-full bg-brand/10 blur-3xl" />
 
-      <div className="relative mx-auto grid max-w-[1280px] grid-cols-2 gap-x-6 gap-y-10 px-6 py-14 sm:gap-x-12 sm:gap-y-12  lg:grid-cols-[1.4fr_1fr_1fr_1.1fr]">
+      <div className="relative mx-auto grid max-w-[1280px] grid-cols-2 gap-x-6 gap-y-10 px-6 py-14 sm:gap-x-10 sm:gap-y-10  lg:grid-cols-[1.4fr_1fr_1fr_1.1fr]">
         <Reveal from="left" className="col-span-2 lg:col-span-1">
           <Image src={footer.logo} alt={footer.logoAlt} width={1109} height={313} className="h-[42px] w-auto sm:h-[54px]" />
           <p className="mt-4 max-w-sm text-[15px] leading-relaxed text-white/90 sm:mt-5 sm:text-[17px]">
