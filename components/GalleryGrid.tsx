@@ -26,6 +26,7 @@ export default function GalleryGrid({
   const totalPages = Math.ceil(items.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentItems = items.slice(startIndex, startIndex + itemsPerPage);
+  const credit = open !== null ? galleryData.credits.find((c) => c.src === currentItems[open]) : undefined;
 
   const handlePageChange = (page: number) => {
     if (page < 1 || page > totalPages || page === currentPage) return;
@@ -112,6 +113,18 @@ export default function GalleryGrid({
                 onClick={(e) => e.stopPropagation()}
               >
                 <Image src={currentItems[open]} alt={`${galleryData.imageAltPrefix} ${startIndex + open + 1}`} fill quality={90} sizes="(min-width:768px) 768px, 100vw" className="object-cover" />
+                {credit && (
+                  <p className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent px-4 pb-3 pt-8 text-right text-xs text-white/90">
+                    {galleryData.creditLabel}:{" "}
+                    <a href={credit.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">{credit.author}</a>
+                    {" · "}
+                    {credit.licenseUrl ? (
+                      <a href={credit.licenseUrl} target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">{credit.license}</a>
+                    ) : (
+                      credit.license
+                    )}
+                  </p>
+                )}
               </motion.div>
             </AnimatePresence>
             {([

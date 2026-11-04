@@ -351,9 +351,21 @@ export interface BlogDetailData {
   recent: { title: string; url: string; items: RecentPost[] };
 }
 
+/** Attribution for a photo used under a Creative Commons or public-domain licence. */
+export interface PhotoCredit {
+  src: string;
+  author: string;
+  license: string;
+  licenseUrl: string;
+  sourceUrl: string;
+}
+
 export interface GalleryData extends SectionIntro {
   imageAltPrefix: string;
   images: string[];
+  /** Caption prefix for credits, e.g. "Photo". */
+  creditLabel: string;
+  credits: PhotoCredit[];
 }
 
 export interface CtaData extends SectionIntro {

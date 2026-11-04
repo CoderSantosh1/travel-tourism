@@ -1175,54 +1175,393 @@
               "description": "Explore our travel gallery and get inspired by stunning destinations, unforgettable experiences and scenic beauty from around the world.",
               "imageAltPrefix": "Gallery photo",
               "images": [
-                "/gallery/gallery-1-hd.jpg",
-                "/gallery/gallery-2-hd.jpg",
-                "/gallery/gallery-3-hd.jpg",
-                "/gallery/gallery-4-hd.jpg",
-                "/gallery/gallery-5-hd.jpg",
-                "/gallery/gallery-6-hd.jpg",
-                "/gallery/gallery-7-hd.jpg",
-                "/gallery/gallery-8-hd.jpg",
-                "/gallery/gallery-9-hd.jpg",
-                "/gallery/gallery-10-hd.jpg",
-                "/gallery/gallery-11-hd.jpg",
-                "/gallery/gallery-12-hd.jpg",
-                "/destinations/bali.jpg",
-                "/destinations/burj-khalifa.jpg",
-                "/destinations/interlaken.jpg",
-                "/destinations/kyoto-temple.jpg",
-                "/destinations/london.jpg",
-                "/destinations/maldives-island.jpg",
-                "/destinations/marina-bay.jpg",
-                "/destinations/new-york.jpg",
-                "/destinations/paris.jpg",
-                "/destinations/phuket.jpg",
-                "/destinations/san-miguel.jpg",
-                "/destinations/sydney.jpg",
-                "/tour-packages/bangkok-phuket.jpg",
-                "/tour-packages/island-escape.jpg",
-                "/tour-packages/italy.jpg",
-                "/tour-packages/japan.jpg",
-                "/tour-packages/langkawi.jpg",
-                "/tour-packages/london.jpg",
-                "/tour-packages/maldives.jpg",
-                "/tour-packages/modern-dubai.jpg",
-                "/tour-packages/new-york.jpg",
-                "/tour-packages/paris-city.jpg",
-                "/tour-packages/singapore.jpg",
-                "/tour-packages/swiss-alps.jpg",
-                "/blog/blog-1.jpg",
-                "/blog/blog-2.jpg",
-                "/blog/blog-3.jpg",
-                "/blog/blog-4.jpg",
-                "/blog/blog-5.jpg",
-                "/blog/blog-6.jpg",
-                "/blog/blog-7.jpg",
-                "/blog/blog-8.jpg",
-                "/blog/blog-9.jpg",
-                "/blog/blog-10.jpg",
-                "/blog/blog-11.jpg",
-                "/blog/blog-12.jpg"
+                "/gallery/photo-1.jpg",
+                "/gallery/photo-2.jpg",
+                "/gallery/photo-3.jpg",
+                "/gallery/photo-4.jpg",
+                "/gallery/photo-5.jpg",
+                "/gallery/photo-6.jpg",
+                "/gallery/photo-7.jpg",
+                "/gallery/photo-8.jpg",
+                "/gallery/photo-9.jpg",
+                "/gallery/photo-10.jpg",
+                "/gallery/photo-11.jpg",
+                "/gallery/photo-12.jpg",
+                "/gallery/photo-13.jpg",
+                "/gallery/photo-14.jpg",
+                "/gallery/photo-15.jpg",
+                "/gallery/photo-16.jpg",
+                "/gallery/photo-17.jpg",
+                "/gallery/photo-18.jpg",
+                "/gallery/photo-19.jpg",
+                "/gallery/photo-20.jpg",
+                "/gallery/photo-21.jpg",
+                "/gallery/photo-22.jpg",
+                "/gallery/photo-23.jpg",
+                "/gallery/photo-24.jpg",
+                "/gallery/photo-25.jpg",
+                "/gallery/photo-26.jpg",
+                "/gallery/photo-27.jpg",
+                "/gallery/photo-28.jpg",
+                "/gallery/photo-29.jpg",
+                "/gallery/photo-30.jpg",
+                "/gallery/photo-31.jpg",
+                "/gallery/photo-32.jpg",
+                "/gallery/photo-33.jpg",
+                "/gallery/photo-34.jpg",
+                "/gallery/photo-35.jpg",
+                "/gallery/photo-36.jpg",
+                "/gallery/photo-37.jpg",
+                "/gallery/photo-38.jpg",
+                "/gallery/photo-39.jpg",
+                "/gallery/photo-40.jpg",
+                "/gallery/photo-41.jpg",
+                "/gallery/photo-42.jpg",
+                "/gallery/photo-43.jpg",
+                "/gallery/photo-44.jpg",
+                "/gallery/photo-45.jpg",
+                "/gallery/photo-46.jpg",
+                "/gallery/photo-47.jpg",
+                "/gallery/photo-48.jpg"
+              ],
+              "creditLabel": "Photo",
+              "credits": [
+                {
+                  "src": "/gallery/photo-1.jpg",
+                  "author": "Martin Falbisoner",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamonds_Thudufushi_Beach_and_Water_Villas,_May_2017_-09.jpg"
+                },
+                {
+                  "src": "/gallery/photo-2.jpg",
+                  "author": "Ssuri",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phi_Phi_Viewpoint_2_Panoramic.jpg"
+                },
+                {
+                  "src": "/gallery/photo-3.jpg",
+                  "author": "makemake at de.wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boraboraluft.jpg"
+                },
+                {
+                  "src": "/gallery/photo-4.jpg",
+                  "author": "Giles Laurent",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg"
+                },
+                {
+                  "src": "/gallery/photo-5.jpg",
+                  "author": "Vyacheslav Argenberg",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malapascua_Island,_Tropical_sunset_on_the_beach,_Philippines.jpg"
+                },
+                {
+                  "src": "/gallery/photo-6.jpg",
+                  "author": "Phillip Capper",
+                  "license": "CC BY 2.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blaketown_Lagoon.jpg"
+                },
+                {
+                  "src": "/gallery/photo-7.jpg",
+                  "author": "Mustang Joe",
+                  "license": "CC0",
+                  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay_Panorama,_Vietnam.jpg"
+                },
+                {
+                  "src": "/gallery/photo-8.jpg",
+                  "author": "Liridon",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sailing_boat_at_sunset,_Ionian_Sea,_Albania.jpg"
+                },
+                {
+                  "src": "/gallery/photo-9.jpg",
+                  "author": "Scruffdog1",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Picture_perfect_Moraine_Lake.jpg"
+                },
+                {
+                  "src": "/gallery/photo-10.jpg",
+                  "author": "Martin Falbisoner",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamonds_Thudufushi_Beach_and_Water_Villas,_May_2017_-08.jpg"
+                },
+                {
+                  "src": "/gallery/photo-11.jpg",
+                  "author": "Flip Schulke",
+                  "license": "Public domain",
+                  "licenseUrl": "",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:SNORKELER_INSPECTS_ONE_OF_THE_MORE_THAN_40_SPECIES_OF_CORAL_AT_JOHN_PENNEKAMP_CORAL_REEF_STATE_PARK_NEAR_KEY_LARGO_-_NARA_-_548722.jpg"
+                },
+                {
+                  "src": "/gallery/photo-12.jpg",
+                  "author": "CEphoto, Uwe Aranas",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brantan_Bali_Pura-Ulun-Danu-Bratan-01.jpg"
+                },
+                {
+                  "src": "/gallery/photo-13.jpg",
+                  "author": "Jakub Hałun",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanah_Lot,_Bali,_Indonesia,_20220827_0957_1103.jpg"
+                },
+                {
+                  "src": "/gallery/photo-14.jpg",
+                  "author": "Sergei Gussev",
+                  "license": "CC BY 2.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Night_View_01.jpg"
+                },
+                {
+                  "src": "/gallery/photo-15.jpg",
+                  "author": "Kabelleger / David Gubler (http://www.bahnbilder.ch)",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZB_Interregio_mit_HGe_101_bei_Niederried.jpg"
+                },
+                {
+                  "src": "/gallery/photo-16.jpg",
+                  "author": "Basile Morin",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg"
+                },
+                {
+                  "src": "/gallery/photo-17.jpg",
+                  "author": "Diliff",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_London_Dusk_Feb_2006.jpg"
+                },
+                {
+                  "src": "/gallery/photo-18.jpg",
+                  "author": "Dr. Ondřej Havelka (cestovatel)",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_shot_of_a_small_island_on_a_coral_reef_in_the_Maldives.jpg"
+                },
+                {
+                  "src": "/gallery/photo-19.jpg",
+                  "author": "Basile Morin",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArtScience_Museum,_Marina_Bay_Sands,_Singapore.jpg"
+                },
+                {
+                  "src": "/gallery/photo-20.jpg",
+                  "author": "Don Ramey Logan",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liberty_Island_photo_Don_Ramey_Logan.jpg"
+                },
+                {
+                  "src": "/gallery/photo-21.jpg",
+                  "author": "Jorge Royan",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg"
+                },
+                {
+                  "src": "/gallery/photo-22.jpg",
+                  "author": "This photo was taken by Anton Zelenov. Please credit this with : Photo : Anton Zelenov in the immediate vicinity of the image. If you use one of my photos, please email me (account needed) or leave me a short message on my discussion page. It would be greatly appreciated. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banana_beach_Phuket_2017_-_02.jpg"
+                },
+                {
+                  "src": "/gallery/photo-23.jpg",
+                  "author": "Martin Falbisoner",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Canal_Grande_and_Ponte_di_Rialto,_Venice_-_September_2017.jpg"
+                },
+                {
+                  "src": "/gallery/photo-24.jpg",
+                  "author": "Diliff",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg"
+                },
+                {
+                  "src": "/gallery/photo-25.jpg",
+                  "author": "Vyacheslav Argenberg",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise,_Koh_Yao_Noi_(island),_Phang_Nga_Bay,_Thailand.jpg"
+                },
+                {
+                  "src": "/gallery/photo-26.jpg",
+                  "author": "Tiya20",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uluwatu_temple,_Bali.jpg"
+                },
+                {
+                  "src": "/gallery/photo-27.jpg",
+                  "author": "Bernard Gagnon",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_(Italy)_04.jpg"
+                },
+                {
+                  "src": "/gallery/photo-28.jpg",
+                  "author": "Stjepko Krehula",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg"
+                },
+                {
+                  "src": "/gallery/photo-29.jpg",
+                  "author": "kallerna",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Railay_Beach_5.jpg"
+                },
+                {
+                  "src": "/gallery/photo-30.jpg",
+                  "author": "Colin",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Ben_at_sunset_-_2014-10-27_17-30.jpg"
+                },
+                {
+                  "src": "/gallery/photo-31.jpg",
+                  "author": "Ввласенко",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_under_palm_trees._Eriyadu,_Maldives.jpg"
+                },
+                {
+                  "src": "/gallery/photo-32.jpg",
+                  "author": "Khanshahab06",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dubai_Marina_Skyline_93.jpg"
+                },
+                {
+                  "src": "/gallery/photo-33.jpg",
+                  "author": "Christian David",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_skyline_from_under_the_Brooklyn_Bridge_deck,_New_York_City.jpg"
+                },
+                {
+                  "src": "/gallery/photo-34.jpg",
+                  "author": "Benh LIEU SONG (Flickr)",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg"
+                },
+                {
+                  "src": "/gallery/photo-35.jpg",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merli%C3%B3n,_Marina_Bay,_Singapur,_2023-08-18,_DD_45-47_HDR.jpg"
+                },
+                {
+                  "src": "/gallery/photo-36.jpg",
+                  "author": "chensiyuan",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_lauterbrunnen_valley_2012.jpg"
+                },
+                {
+                  "src": "/gallery/photo-37.jpg",
+                  "author": "User:Anna.Tsolidou",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oia_-_Santorini_2019.jpg"
+                },
+                {
+                  "src": "/gallery/photo-38.jpg",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_Maya,_Ko_Phi_Phi,_Tailandia,_2013-08-19,_DD_13.JPG"
+                },
+                {
+                  "src": "/gallery/photo-39.jpg",
+                  "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarola_NW_Cinque_Terre_Sep23_A7C_07233.jpg"
+                },
+                {
+                  "src": "/gallery/photo-40.jpg",
+                  "author": "Jakub Hałun",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bled_Island_in_Lake_Bled,_Slovenia,_20240504_0901_8297.jpg"
+                },
+                {
+                  "src": "/gallery/photo-41.jpg",
+                  "author": "Borabora.jpg: User:Taka-0905 derivative work: Marsilio (talk)",
+                  "license": "Public domain",
+                  "licenseUrl": "",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Borabora3.jpg"
+                },
+                {
+                  "src": "/gallery/photo-42.jpg",
+                  "author": "Wilnel José Verdú Guerrero",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navagio,_Zante_02.jpg"
+                },
+                {
+                  "src": "/gallery/photo-43.jpg",
+                  "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here are not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg"
+                },
+                {
+                  "src": "/gallery/photo-44.jpg",
+                  "author": "Vyacheslav Argenberg",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Island_lagoon_in_Bacuit_Bay,_El_Nido,_Palawan,_Philippines.jpg"
+                },
+                {
+                  "src": "/gallery/photo-45.jpg",
+                  "author": "OrionCro",
+                  "license": "CC BY-SA 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfalls_at_Plitvice_Lakes.jpg"
+                },
+                {
+                  "src": "/gallery/photo-46.jpg",
+                  "author": "Vyacheslav Argenberg",
+                  "license": "CC BY 4.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halong_Bay,_Boat_deck.jpg"
+                },
+                {
+                  "src": "/gallery/photo-47.jpg",
+                  "author": "Midori",
+                  "license": "CC BY 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Kawaguchiko_Sakura_Mount_Fuji_4.JPG"
+                },
+                {
+                  "src": "/gallery/photo-48.jpg",
+                  "author": "Norbert Nagel",
+                  "license": "CC BY-SA 3.0",
+                  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coast_of_Sorrento_-_Campania_-_Italy_-_July_12th_2013_-_01.jpg"
+                }
               ]
             }
           }
