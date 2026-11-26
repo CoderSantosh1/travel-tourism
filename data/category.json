@@ -15,7 +15,7 @@
       "emailUrl": "mailto:info@xyz.com"
     },
     "Footer": {
-      "logo": "/common/logo-white.png",
+      "logo": "/common/logo-white.webp",
       "logoAlt": "TourAvibe",
       "description": "Explore the world with unforgettable experiences, handpicked destinations and customized travel packages crafted just for you.",
       "quickLinksTitle": "Quick Links",
@@ -133,59 +133,59 @@
     "aboutBreadcrumb": {
       "title": "About Us",
       "pageTitle": "About Us",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "servicesBreadcrumb": {
       "title": "Services",
       "pageTitle": "Services",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "destinationsBreadcrumb": {
       "title": "Destination",
       "pageTitle": "Destinations",
-      "bgImage": "/common/page-banner.jpg",
+      "bgImage": "/common/page-banner.webp",
       "crumb": "Destinations"
     },
     "destinationDetailBreadcrumb": {
       "title": "Destination Detail",
       "pageTitle": "Destination Detail",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "galleryBreadcrumb": {
       "title": "Gallery",
       "pageTitle": "Gallery",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "packagesBreadcrumb": {
       "title": "Packages",
       "pageTitle": "Tour Packages",
-      "bgImage": "/common/page-banner.jpg",
+      "bgImage": "/common/page-banner.webp",
       "crumb": "Tour Packages"
     },
     "packageDetailBreadcrumb": {
       "title": "Package Detail",
       "pageTitle": "Package Detail",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "blogBreadcrumb": {
       "title": "Blog",
       "pageTitle": "Blog",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "blogDetailBreadcrumb": {
       "title": "Blog Detail",
       "pageTitle": "Blog Detail",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "contactBreadcrumb": {
       "title": "Contact Us",
       "pageTitle": "Contact Us",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "bookingBreadcrumb": {
       "title": "Booking",
       "pageTitle": "Booking",
-      "bgImage": "/common/page-banner.jpg"
+      "bgImage": "/common/page-banner.webp"
     },
     "validationMessages": {
       "requiredText": "Please enter {label}",
@@ -208,7 +208,7 @@
         "Header": {
           "variants": {
             "TravelHeader1": {
-              "logo": "/common/logo.png",
+              "logo": "/common/logo.webp",
               "logoAlt": "TourAvibe",
               "navLinks": [
                 {
@@ -268,9 +268,9 @@
               "title2": "With Us",
               "description": "Discover breathtaking destinations, unforgettable experiences and memories that last a lifetime with TourAvibe.",
               "slides": [
-                "/home/hero-1.jpg",
-                "/home/hero-2.jpg",
-                "/home/hero-3.jpg"
+                "/home/hero-1.webp",
+                "/home/hero-2.webp",
+                "/home/hero-3.webp"
               ],
               "primaryButton": {
                 "text": "Explore Packages",
@@ -291,11 +291,11 @@
               "titleAccent": "Best Trip",
               "badge": "Memorable Journeys",
               "mainImage": {
-                "src": "/about/collage-1.jpg",
+                "src": "/about/collage-1.webp",
                 "alt": "Traveller on a boat"
               },
               "smallImage": {
-                "src": "/about/collage-2.jpg",
+                "src": "/about/collage-2.webp",
                 "alt": "Santorini"
               },
               "descriptions": [
@@ -348,73 +348,73 @@
                 {
                   "title": "Flight Booking",
                   "icon": "plane",
-                  "img": "/services/flight-booking.jpg",
+                  "img": "/services/flight-booking.webp",
                   "text": "Find and book the best flight options for your dream destinations at affordable prices."
                 },
                 {
                   "title": "Hotel Booking",
                   "icon": "hotel",
-                  "img": "/services/hotel-booking.jpg",
+                  "img": "/services/hotel-booking.webp",
                   "text": "Choose from a wide range of handpicked hotels for a comfortable and memorable stay."
                 },
                 {
                   "title": "Tour Packages",
                   "icon": "map",
-                  "img": "/services/tour-packages.jpg",
+                  "img": "/services/tour-packages.webp",
                   "text": "Explore our customized tour packages to top destinations across the world."
                 },
                 {
                   "title": "Travel Guide",
                   "icon": "guide",
-                  "img": "/services/travel-guide.jpg",
+                  "img": "/services/travel-guide.webp",
                   "text": "Get expert travel guidance, tips and recommendations for a hassle-free journey."
                 },
                 {
                   "title": "Corporate Travel",
                   "icon": "users",
-                  "img": "/services/corporate-travel.jpg",
+                  "img": "/services/corporate-travel.webp",
                   "text": "Reliable and efficient corporate travel solutions for business trips, meetings and events."
                 },
                 {
                   "title": "Custom Tours",
                   "icon": "car",
-                  "img": "/services/custom-tours.jpg",
+                  "img": "/services/custom-tours.webp",
                   "text": "Plan your own itinerary with our flexible and personalized custom tour services."
                 },
                 {
                   "title": "Destination Planning",
                   "icon": "compass",
-                  "img": "/services/destination-planning.jpg",
+                  "img": "/services/destination-planning.webp",
                   "text": "Discover handpicked destinations and get complete planning support for a perfect trip."
                 },
                 {
                   "title": "Travel Events",
                   "icon": "calendar",
-                  "img": "/services/travel-events.jpg",
+                  "img": "/services/travel-events.webp",
                   "text": "Be a part of our exclusive travel events and experience something beyond the ordinary."
                 },
                 {
                   "title": "Photo Shoot",
                   "icon": "camera",
-                  "img": "/services/photo-shoot.jpg",
+                  "img": "/services/photo-shoot.webp",
                   "text": "Capture your special moments with professional travel photography."
                 },
                 {
                   "title": "Travel Insurance",
                   "icon": "shield",
-                  "img": "/services/travel-insurance.jpg",
+                  "img": "/services/travel-insurance.webp",
                   "text": "Travel with peace of mind with our reliable and affordable travel insurance options."
                 },
                 {
                   "title": "Visa Assistance",
                   "icon": "doc",
-                  "img": "/services/visa-assistance.jpg",
+                  "img": "/services/visa-assistance.webp",
                   "text": "Get complete support for your visa application process with easy documentation."
                 },
                 {
                   "title": "24/7 Travel Support",
                   "icon": "headset",
-                  "img": "/services/travel-support.jpg",
+                  "img": "/services/travel-support.webp",
                   "text": "We're always here to help you before, during and after your journey."
                 }
               ]
@@ -441,85 +441,85 @@
                 {
                   "country": "Thailand",
                   "title": "Bangkok & Phuket",
-                  "img": "/tour-packages/bangkok-phuket.jpg",
+                  "img": "/tour-packages/bangkok-phuket.webp",
                   "text": "Explore vibrant cities, stunning beaches and rich culture.",
                   "days": "6 Days / 5 Nights"
                 },
                 {
                   "country": "Malaysia",
                   "title": "Langkawi Getaway",
-                  "img": "/tour-packages/langkawi.jpg",
+                  "img": "/tour-packages/langkawi.webp",
                   "text": "Relax on pristine beaches and discover natural beauty.",
                   "days": "5 Days / 4 Nights"
                 },
                 {
                   "country": "France",
                   "title": "Paris City Tour",
-                  "img": "/tour-packages/paris-city.jpg",
+                  "img": "/tour-packages/paris-city.webp",
                   "text": "Experience art, history and unforgettable landmarks.",
                   "days": "7 Days / 6 Nights"
                 },
                 {
                   "country": "Bali",
                   "title": "Island Escape",
-                  "img": "/tour-packages/island-escape.jpg",
-                  "homeImg": "/tour-packages/island-escape-home.jpg",
+                  "img": "/tour-packages/island-escape.webp",
+                  "homeImg": "/tour-packages/island-escape-home.webp",
                   "text": "Enjoy crystal clear waters, scenic views and exciting activities.",
                   "days": "5 Days / 4 Nights"
                 },
                 {
                   "country": "Dubai",
                   "title": "Modern Dubai",
-                  "img": "/tour-packages/modern-dubai.jpg",
+                  "img": "/tour-packages/modern-dubai.webp",
                   "text": "Explore modern architecture, luxury shopping and city views.",
                   "days": "6 Days / 5 Nights"
                 },
                 {
                   "country": "Switzerland",
                   "title": "Swiss Alps Adventure",
-                  "img": "/tour-packages/swiss-alps.jpg",
+                  "img": "/tour-packages/swiss-alps.webp",
                   "text": "Discover snow-capped mountains, lakes and charming villages.",
                   "days": "7 Days / 6 Nights"
                 },
                 {
                   "country": "Singapore",
                   "title": "Singapore Explorer",
-                  "img": "/tour-packages/singapore.jpg",
+                  "img": "/tour-packages/singapore.webp",
                   "text": "Enjoy modern attractions, shopping and vibrant city life.",
                   "days": "5 Days / 4 Nights"
                 },
                 {
                   "country": "Japan",
                   "title": "Discover Japan",
-                  "img": "/tour-packages/japan.jpg",
+                  "img": "/tour-packages/japan.webp",
                   "text": "Experience ancient temples, unique culture and scenic beauty.",
                   "days": "6 Days / 5 Nights"
                 },
                 {
                   "country": "Maldives",
                   "title": "Maldives Paradise",
-                  "img": "/tour-packages/maldives.jpg",
+                  "img": "/tour-packages/maldives.webp",
                   "text": "Stay in luxury resorts and enjoy clear waters and white beaches.",
                   "days": "4 Days / 3 Nights"
                 },
                 {
                   "country": "Italy",
                   "title": "Explore Italy",
-                  "img": "/tour-packages/italy.jpg",
+                  "img": "/tour-packages/italy.webp",
                   "text": "Visit historic cities, charming coastlines and delicious cuisine.",
                   "days": "7 Days / 6 Nights"
                 },
                 {
                   "country": "UK",
                   "title": "London Highlights",
-                  "img": "/tour-packages/london.jpg",
+                  "img": "/tour-packages/london.webp",
                   "text": "Explore iconic landmarks, rich history and vibrant culture.",
                   "days": "6 Days / 5 Nights"
                 },
                 {
                   "country": "USA",
                   "title": "New York Explorer",
-                  "img": "/tour-packages/new-york.jpg",
+                  "img": "/tour-packages/new-york.webp",
                   "text": "Discover famous landmarks, exciting city life and diverse culture.",
                   "days": "5 Days / 4 Nights"
                 }
@@ -546,73 +546,73 @@
                 {
                   "country": "Italy",
                   "title": "San Miguel",
-                  "img": "/destinations/san-miguel.jpg",
+                  "img": "/destinations/san-miguel.webp",
                   "text": "Explore historic streets, charming coastlines and vibrant culture."
                 },
                 {
                   "country": "Dubai",
                   "title": "Burj Khalifa",
-                  "img": "/destinations/burj-khalifa.jpg",
+                  "img": "/destinations/burj-khalifa.webp",
                   "text": "Experience modern architecture, luxury and unforgettable city views."
                 },
                 {
                   "country": "Japan",
                   "title": "Kyoto Temple",
-                  "img": "/destinations/kyoto-temple.jpg",
+                  "img": "/destinations/kyoto-temple.webp",
                   "text": "Discover ancient temples, rich traditions and scenic beauty."
                 },
                 {
                   "country": "Maldives",
                   "title": "Maldives Island",
-                  "img": "/destinations/maldives-island.jpg",
+                  "img": "/destinations/maldives-island.webp",
                   "text": "Relax on pristine beaches and enjoy crystal clear waters."
                 },
                 {
                   "country": "France",
                   "title": "Paris",
-                  "img": "/destinations/paris.jpg",
+                  "img": "/destinations/paris.webp",
                   "text": "Experience romance, art, history and world-famous landmarks."
                 },
                 {
                   "country": "Switzerland",
                   "title": "Interlaken",
-                  "img": "/destinations/interlaken.jpg",
+                  "img": "/destinations/interlaken.webp",
                   "text": "Enjoy breathtaking mountains, lakes and outdoor adventures."
                 },
                 {
                   "country": "Thailand",
                   "title": "Phuket",
-                  "img": "/destinations/phuket.jpg",
+                  "img": "/destinations/phuket.webp",
                   "text": "Beautiful beaches, vibrant nightlife and amazing island experiences."
                 },
                 {
                   "country": "Singapore",
                   "title": "Marina Bay",
-                  "img": "/destinations/marina-bay.jpg",
+                  "img": "/destinations/marina-bay.webp",
                   "text": "Modern attractions, shopping, food and stunning city views."
                 },
                 {
                   "country": "USA",
                   "title": "New York",
-                  "img": "/destinations/new-york.jpg",
+                  "img": "/destinations/new-york.webp",
                   "text": "Explore iconic landmarks, diverse culture and exciting city life."
                 },
                 {
                   "country": "Australia",
                   "title": "Sydney",
-                  "img": "/destinations/sydney.jpg",
+                  "img": "/destinations/sydney.webp",
                   "text": "Stunning beaches, famous landmarks and a relaxed coastal lifestyle."
                 },
                 {
                   "country": "UK",
                   "title": "London",
-                  "img": "/destinations/london.jpg",
+                  "img": "/destinations/london.webp",
                   "text": "Rich history, iconic landmarks and a vibrant city experience."
                 },
                 {
                   "country": "Indonesia",
                   "title": "Bali",
-                  "img": "/destinations/bali.jpg",
+                  "img": "/destinations/bali.webp",
                   "text": "Tropical beaches, lush landscapes and unique cultural experiences."
                 }
               ]
@@ -623,10 +623,10 @@
           "variants": {
             "TravelDestinationDetail1": {
               "images": [
-                "/destination-detail/main.jpg",
-                "/destination-detail/thumb-2.jpg",
-                "/destination-detail/thumb-3.jpg",
-                "/destination-detail/thumb-4.jpg"
+                "/destination-detail/main.webp",
+                "/destination-detail/thumb-2.webp",
+                "/destination-detail/thumb-3.webp",
+                "/destination-detail/thumb-4.webp"
               ],
               "location": "Thailand",
               "title": "A Complete Guide for Travelers in Thailand",
@@ -675,17 +675,17 @@
                 "title": "Top Experiences in Thailand",
                 "items": [
                   {
-                    "img": "/destination-detail/island-hopping.jpg",
+                    "img": "/destination-detail/island-hopping.webp",
                     "title": "Island Hopping",
                     "text": "Explore beautiful islands and enjoy crystal-clear waters."
                   },
                   {
-                    "img": "/destination-detail/cultural-tours.jpg",
+                    "img": "/destination-detail/cultural-tours.webp",
                     "title": "Cultural Tours",
                     "text": "Visit ancient temples and experience rich traditions."
                   },
                   {
-                    "img": "/destination-detail/local-food.jpg",
+                    "img": "/destination-detail/local-food.webp",
                     "title": "Local Food",
                     "text": "Enjoy delicious Thai cuisine and vibrant street markets."
                   }
@@ -797,22 +797,22 @@
                   {
                     "name": "Bali, Indonesia",
                     "trips": 120,
-                    "img": "/destination-detail/sidebar/bali.jpg"
+                    "img": "/destination-detail/sidebar/bali.webp"
                   },
                   {
                     "name": "Paris, France",
                     "trips": 98,
-                    "img": "/destination-detail/sidebar/paris.jpg"
+                    "img": "/destination-detail/sidebar/paris.webp"
                   },
                   {
                     "name": "Dubai, UAE",
                     "trips": 110,
-                    "img": "/destination-detail/sidebar/dubai.jpg"
+                    "img": "/destination-detail/sidebar/dubai.webp"
                   },
                   {
                     "name": "Kyoto, Japan",
                     "trips": 76,
-                    "img": "/destination-detail/sidebar/kyoto.jpg"
+                    "img": "/destination-detail/sidebar/kyoto.webp"
                   }
                 ]
               }
@@ -827,7 +827,7 @@
               "titleAccent": "Detail",
               "description": "Discover the perfect blend of adventure, relaxation and culture with our handpicked travel package.",
               "image": {
-                "src": "/package-detail/main.jpg",
+                "src": "/package-detail/main.webp",
                 "alt": "Friends enjoying a coastal view"
               },
               "location": "Europe",
@@ -843,27 +843,27 @@
                 {
                   "title": "Day 1: Departure",
                   "text": "Depart from India and arrive at your destination.",
-                  "img": "/package-detail/day-1.jpg"
+                  "img": "/package-detail/day-1.webp"
                 },
                 {
                   "title": "Day 2: Paris",
                   "text": "Explore the romantic city of Paris.",
-                  "img": "/package-detail/day-2.jpg"
+                  "img": "/package-detail/day-2.webp"
                 },
                 {
                   "title": "Day 3: Swiss Alps",
                   "text": "Enjoy breathtaking views in the Swiss Alps.",
-                  "img": "/package-detail/day-3.jpg"
+                  "img": "/package-detail/day-3.webp"
                 },
                 {
                   "title": "Day 4: Rome",
                   "text": "Visit the historic Colosseum in Rome.",
-                  "img": "/package-detail/day-4.jpg"
+                  "img": "/package-detail/day-4.webp"
                 },
                 {
                   "title": "Day 5: Return",
                   "text": "Fly back home with unforgettable memories.",
-                  "img": "/package-detail/day-5.jpg"
+                  "img": "/package-detail/day-5.webp"
                 }
               ],
               "highlightsTitle": "Package Highlights",
@@ -942,17 +942,17 @@
                   {
                     "name": "Paris, France",
                     "trips": 98,
-                    "img": "/package-detail/sidebar/paris.jpg"
+                    "img": "/package-detail/sidebar/paris.webp"
                   },
                   {
                     "name": "Bali, Indonesia",
                     "trips": 120,
-                    "img": "/package-detail/sidebar/bali.jpg"
+                    "img": "/package-detail/sidebar/bali.webp"
                   },
                   {
                     "name": "Santorini, Greece",
                     "trips": 110,
-                    "img": "/package-detail/sidebar/santorini.jpg"
+                    "img": "/package-detail/sidebar/santorini.webp"
                   }
                 ]
               }
@@ -970,22 +970,22 @@
                 {
                   "name": "Priya Sharma",
                   "city": "New Delhi, India",
-                  "avatar": "/home/testimonials/avatar-1.jpg",
-                  "scene": "/home/testimonials/scene-1.jpg",
+                  "avatar": "/home/testimonials/avatar-1.webp",
+                  "scene": "/home/testimonials/scene-1.webp",
                   "text": "Our trip was perfectly planned and executed. Everything from accommodations to sightseeing was seamless. Truly a memorable experience!"
                 },
                 {
                   "name": "Rahul Mehta",
                   "city": "Mumbai, India",
-                  "avatar": "/home/testimonials/avatar-2.jpg",
-                  "scene": "/home/testimonials/scene-2.jpg",
+                  "avatar": "/home/testimonials/avatar-2.webp",
+                  "scene": "/home/testimonials/scene-2.webp",
                   "text": "Amazing destinations, great planning, and excellent support throughout the journey. The team made our vacation stress-free and truly special."
                 },
                 {
                   "name": "Anjali Verma",
                   "city": "Bengaluru, India",
-                  "avatar": "/home/testimonials/avatar-3.jpg",
-                  "scene": "/home/testimonials/scene-3.jpg",
+                  "avatar": "/home/testimonials/avatar-3.webp",
+                  "scene": "/home/testimonials/scene-3.webp",
                   "text": "We had an incredible family trip! The itinerary was well-organized and the hotels were fantastic. Highly recommend for anyone looking for a hassle-free travel experience."
                 }
               ]
@@ -1012,84 +1012,84 @@
                 {
                   "cat": "Travel Tips",
                   "title": "10 Best Destinations for a Summer Vacation",
-                  "img": "/blog/blog-1.jpg",
+                  "img": "/blog/blog-1.webp",
                   "text": "Explore the top destinations around the world that are perfect for your summer holiday.",
                   "date": "12 Oct 2026"
                 },
                 {
                   "cat": "Destinations",
                   "title": "A Complete Guide to Exploring Thailand",
-                  "img": "/blog/blog-2.jpg",
+                  "img": "/blog/blog-2.webp",
                   "text": "Discover the best places to visit, things to do and travel tips for an amazing Thailand trip.",
                   "date": "10 Oct 2026"
                 },
                 {
                   "cat": "Travel Guide",
                   "title": "How to Plan a Perfect Budget Trip",
-                  "img": "/blog/blog-3.jpg",
+                  "img": "/blog/blog-3.webp",
                   "text": "Learn simple tips to plan a memorable and budget-friendly trip without compromising on fun.",
                   "date": "08 Oct 2026"
                 },
                 {
                   "cat": "Travel Experience",
                   "title": "Top 5 Offbeat Destinations You Must Visit",
-                  "img": "/blog/blog-4.jpg",
+                  "img": "/blog/blog-4.webp",
                   "text": "Escape the crowds and explore these hidden gems for a unique travel experience.",
                   "date": "05 Oct 2026"
                 },
                 {
                   "cat": "Hotel & Stay",
                   "title": "Best Resorts for a Relaxing Getaway",
-                  "img": "/blog/blog-5.jpg",
+                  "img": "/blog/blog-5.webp",
                   "text": "Find the most beautiful resorts perfect for a peaceful and luxurious vacation.",
                   "date": "02 Oct 2026"
                 },
                 {
                   "cat": "Travel Tips",
                   "title": "Essential Travel Tips for First-Time Travelers",
-                  "img": "/blog/blog-6.jpg",
+                  "img": "/blog/blog-6.webp",
                   "text": "Make your first trip easy and stress-free with these essential travel tips.",
                   "date": "28 Sep 2026"
                 },
                 {
                   "cat": "Destinations",
                   "title": "Exploring the Beauty of Europe",
-                  "img": "/blog/blog-7.jpg",
+                  "img": "/blog/blog-7.webp",
                   "text": "A travel guide to the most beautiful cities, culture and experiences across Europe.",
                   "date": "25 Sep 2026"
                 },
                 {
                   "cat": "Travel Guide",
                   "title": "Top Beach Destinations for Honeymoon",
-                  "img": "/blog/blog-8.jpg",
+                  "img": "/blog/blog-8.webp",
                   "text": "Discover the most romantic beach destinations for an unforgettable honeymoon experience.",
                   "date": "20 Sep 2026"
                 },
                 {
                   "cat": "Adventure",
                   "title": "Best Places for Adventure Lovers",
-                  "img": "/blog/blog-9.jpg",
+                  "img": "/blog/blog-9.webp",
                   "text": "From mountain treks to water sports, explore the best adventure destinations worldwide.",
                   "date": "18 Sep 2026"
                 },
                 {
                   "cat": "Travel Experience",
                   "title": "A Guide to the Maldives Islands",
-                  "img": "/blog/blog-10.jpg",
+                  "img": "/blog/blog-10.webp",
                   "text": "Crystal clear waters, luxurious stays and unforgettable experiences await you in the Maldives.",
                   "date": "15 Sep 2026"
                 },
                 {
                   "cat": "Destinations",
                   "title": "Top Cultural Destinations in Asia",
-                  "img": "/blog/blog-11.jpg",
+                  "img": "/blog/blog-11.webp",
                   "text": "Explore the rich culture, history and traditions of Asia's most fascinating destinations.",
                   "date": "12 Sep 2026"
                 },
                 {
                   "cat": "Travel Tips",
                   "title": "How to Travel Safely During Your Trip",
-                  "img": "/blog/blog-12.jpg",
+                  "img": "/blog/blog-12.webp",
                   "text": "Important safety tips to keep in mind while traveling and make your journey smooth and enjoyable.",
                   "date": "10 Sep 2026"
                 }
@@ -1101,7 +1101,7 @@
           "variants": {
             "TravelBlogDetail1": {
               "image": {
-                "src": "/blog-detail/main.jpg",
+                "src": "/blog-detail/main.webp",
                 "alt": "Traveller in Thailand"
               },
               "date": "10 Oct 2026",
@@ -1114,8 +1114,8 @@
                 "text": "Thailand is known for its warm hospitality, breathtaking landscapes and diverse experiences. From beautiful islands and crystal-clear waters to historic temples and lively markets, the country offers a unique travel experience that suits every type of traveler."
               },
               "images": [
-                "/blog-detail/temple.jpg",
-                "/blog-detail/boats.jpg"
+                "/blog-detail/temple.webp",
+                "/blog-detail/boats.webp"
               ],
               "topDestinations": {
                 "title": "Top Destinations in Thailand",
@@ -1136,7 +1136,7 @@
                 "title": "Final Thoughts",
                 "text": "Thailand is a destination that leaves a lasting impression. With its natural beauty, rich culture, friendly people and endless experiences, it is a perfect place for your next holiday. Start planning your trip today and create unforgettable memories in the Land of Smiles."
               },
-              "bottomImage": "/blog-detail/final.jpg",
+              "bottomImage": "/blog-detail/final.webp",
               "recent": {
                 "title": "Recent Posts",
                 "url": "/blog-detail",
@@ -1144,22 +1144,22 @@
                   {
                     "title": "10 Best Destinations for a Summer Vacation",
                     "date": "12 Oct 2026",
-                    "img": "/blog/blog-10.jpg"
+                    "img": "/blog/blog-10.webp"
                   },
                   {
                     "title": "A Complete Guide to Exploring Thailand",
                     "date": "10 Oct 2026",
-                    "img": "/blog/blog-2.jpg"
+                    "img": "/blog/blog-2.webp"
                   },
                   {
                     "title": "How to Plan a Perfect Budget Trip",
                     "date": "08 Oct 2026",
-                    "img": "/blog/blog-3.jpg"
+                    "img": "/blog/blog-3.webp"
                   },
                   {
                     "title": "Top 5 Offbeat Destinations You Must Visit",
                     "date": "05 Oct 2026",
-                    "img": "/blog/blog-4.jpg"
+                    "img": "/blog/blog-4.webp"
                   }
                 ]
               }
@@ -1175,388 +1175,388 @@
               "description": "Explore our travel gallery and get inspired by stunning destinations, unforgettable experiences and scenic beauty from around the world.",
               "imageAltPrefix": "Gallery photo",
               "images": [
-                "/gallery/photo-1.jpg",
-                "/gallery/photo-2.jpg",
-                "/gallery/photo-3.jpg",
-                "/gallery/photo-4.jpg",
-                "/gallery/photo-5.jpg",
-                "/gallery/photo-6.jpg",
-                "/gallery/photo-7.jpg",
-                "/gallery/photo-8.jpg",
-                "/gallery/photo-9.jpg",
-                "/gallery/photo-10.jpg",
-                "/gallery/photo-11.jpg",
-                "/gallery/photo-12.jpg",
-                "/gallery/photo-13.jpg",
-                "/gallery/photo-14.jpg",
-                "/gallery/photo-15.jpg",
-                "/gallery/photo-16.jpg",
-                "/gallery/photo-17.jpg",
-                "/gallery/photo-18.jpg",
-                "/gallery/photo-19.jpg",
-                "/gallery/photo-20.jpg",
-                "/gallery/photo-21.jpg",
-                "/gallery/photo-22.jpg",
-                "/gallery/photo-23.jpg",
-                "/gallery/photo-24.jpg",
-                "/gallery/photo-25.jpg",
-                "/gallery/photo-26.jpg",
-                "/gallery/photo-27.jpg",
-                "/gallery/photo-28.jpg",
-                "/gallery/photo-29.jpg",
-                "/gallery/photo-30.jpg",
-                "/gallery/photo-31.jpg",
-                "/gallery/photo-32.jpg",
-                "/gallery/photo-33.jpg",
-                "/gallery/photo-34.jpg",
-                "/gallery/photo-35.jpg",
-                "/gallery/photo-36.jpg",
-                "/gallery/photo-37.jpg",
-                "/gallery/photo-38.jpg",
-                "/gallery/photo-39.jpg",
-                "/gallery/photo-40.jpg",
-                "/gallery/photo-41.jpg",
-                "/gallery/photo-42.jpg",
-                "/gallery/photo-43.jpg",
-                "/gallery/photo-44.jpg",
-                "/gallery/photo-45.jpg",
-                "/gallery/photo-46.jpg",
-                "/gallery/photo-47.jpg",
-                "/gallery/photo-48.jpg"
+                "/gallery/photo-1.webp",
+                "/gallery/photo-2.webp",
+                "/gallery/photo-3.webp",
+                "/gallery/photo-4.webp",
+                "/gallery/photo-5.webp",
+                "/gallery/photo-6.webp",
+                "/gallery/photo-7.webp",
+                "/gallery/photo-8.webp",
+                "/gallery/photo-9.webp",
+                "/gallery/photo-10.webp",
+                "/gallery/photo-11.webp",
+                "/gallery/photo-12.webp",
+                "/gallery/photo-13.webp",
+                "/gallery/photo-14.webp",
+                "/gallery/photo-15.webp",
+                "/gallery/photo-16.webp",
+                "/gallery/photo-17.webp",
+                "/gallery/photo-18.webp",
+                "/gallery/photo-19.webp",
+                "/gallery/photo-20.webp",
+                "/gallery/photo-21.webp",
+                "/gallery/photo-22.webp",
+                "/gallery/photo-23.webp",
+                "/gallery/photo-24.webp",
+                "/gallery/photo-25.webp",
+                "/gallery/photo-26.webp",
+                "/gallery/photo-27.webp",
+                "/gallery/photo-28.webp",
+                "/gallery/photo-29.webp",
+                "/gallery/photo-30.webp",
+                "/gallery/photo-31.webp",
+                "/gallery/photo-32.webp",
+                "/gallery/photo-33.webp",
+                "/gallery/photo-34.webp",
+                "/gallery/photo-35.webp",
+                "/gallery/photo-36.webp",
+                "/gallery/photo-37.webp",
+                "/gallery/photo-38.webp",
+                "/gallery/photo-39.webp",
+                "/gallery/photo-40.webp",
+                "/gallery/photo-41.webp",
+                "/gallery/photo-42.webp",
+                "/gallery/photo-43.webp",
+                "/gallery/photo-44.webp",
+                "/gallery/photo-45.webp",
+                "/gallery/photo-46.webp",
+                "/gallery/photo-47.webp",
+                "/gallery/photo-48.webp"
               ],
               "creditLabel": "Photo",
               "credits": [
                 {
-                  "src": "/gallery/photo-1.jpg",
+                  "src": "/gallery/photo-1.webp",
                   "author": "Martin Falbisoner",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamonds_Thudufushi_Beach_and_Water_Villas,_May_2017_-09.jpg"
                 },
                 {
-                  "src": "/gallery/photo-2.jpg",
+                  "src": "/gallery/photo-2.webp",
                   "author": "Ssuri",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phi_Phi_Viewpoint_2_Panoramic.jpg"
                 },
                 {
-                  "src": "/gallery/photo-3.jpg",
+                  "src": "/gallery/photo-3.webp",
                   "author": "makemake at de.wikipedia",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boraboraluft.jpg"
                 },
                 {
-                  "src": "/gallery/photo-4.jpg",
+                  "src": "/gallery/photo-4.webp",
                   "author": "Giles Laurent",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg"
                 },
                 {
-                  "src": "/gallery/photo-5.jpg",
+                  "src": "/gallery/photo-5.webp",
                   "author": "Vyacheslav Argenberg",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malapascua_Island,_Tropical_sunset_on_the_beach,_Philippines.jpg"
                 },
                 {
-                  "src": "/gallery/photo-6.jpg",
+                  "src": "/gallery/photo-6.webp",
                   "author": "Phillip Capper",
                   "license": "CC BY 2.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blaketown_Lagoon.jpg"
                 },
                 {
-                  "src": "/gallery/photo-7.jpg",
+                  "src": "/gallery/photo-7.webp",
                   "author": "Mustang Joe",
                   "license": "CC0",
                   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay_Panorama,_Vietnam.jpg"
                 },
                 {
-                  "src": "/gallery/photo-8.jpg",
+                  "src": "/gallery/photo-8.webp",
                   "author": "Liridon",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sailing_boat_at_sunset,_Ionian_Sea,_Albania.jpg"
                 },
                 {
-                  "src": "/gallery/photo-9.jpg",
+                  "src": "/gallery/photo-9.webp",
                   "author": "Scruffdog1",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Picture_perfect_Moraine_Lake.jpg"
                 },
                 {
-                  "src": "/gallery/photo-10.jpg",
+                  "src": "/gallery/photo-10.webp",
                   "author": "Martin Falbisoner",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamonds_Thudufushi_Beach_and_Water_Villas,_May_2017_-08.jpg"
                 },
                 {
-                  "src": "/gallery/photo-11.jpg",
+                  "src": "/gallery/photo-11.webp",
                   "author": "Flip Schulke",
                   "license": "Public domain",
                   "licenseUrl": "",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:SNORKELER_INSPECTS_ONE_OF_THE_MORE_THAN_40_SPECIES_OF_CORAL_AT_JOHN_PENNEKAMP_CORAL_REEF_STATE_PARK_NEAR_KEY_LARGO_-_NARA_-_548722.jpg"
                 },
                 {
-                  "src": "/gallery/photo-12.jpg",
+                  "src": "/gallery/photo-12.webp",
                   "author": "CEphoto, Uwe Aranas",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brantan_Bali_Pura-Ulun-Danu-Bratan-01.jpg"
                 },
                 {
-                  "src": "/gallery/photo-13.jpg",
+                  "src": "/gallery/photo-13.webp",
                   "author": "Jakub Hałun",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanah_Lot,_Bali,_Indonesia,_20220827_0957_1103.jpg"
                 },
                 {
-                  "src": "/gallery/photo-14.jpg",
+                  "src": "/gallery/photo-14.webp",
                   "author": "Sergei Gussev",
                   "license": "CC BY 2.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Night_View_01.jpg"
                 },
                 {
-                  "src": "/gallery/photo-15.jpg",
+                  "src": "/gallery/photo-15.webp",
                   "author": "Kabelleger / David Gubler (http://www.bahnbilder.ch)",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZB_Interregio_mit_HGe_101_bei_Niederried.jpg"
                 },
                 {
-                  "src": "/gallery/photo-16.jpg",
+                  "src": "/gallery/photo-16.webp",
                   "author": "Basile Morin",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg"
                 },
                 {
-                  "src": "/gallery/photo-17.jpg",
+                  "src": "/gallery/photo-17.webp",
                   "author": "Diliff",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_London_Dusk_Feb_2006.jpg"
                 },
                 {
-                  "src": "/gallery/photo-18.jpg",
+                  "src": "/gallery/photo-18.webp",
                   "author": "Dr. Ondřej Havelka (cestovatel)",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_shot_of_a_small_island_on_a_coral_reef_in_the_Maldives.jpg"
                 },
                 {
-                  "src": "/gallery/photo-19.jpg",
+                  "src": "/gallery/photo-19.webp",
                   "author": "Basile Morin",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArtScience_Museum,_Marina_Bay_Sands,_Singapore.jpg"
                 },
                 {
-                  "src": "/gallery/photo-20.jpg",
+                  "src": "/gallery/photo-20.webp",
                   "author": "Don Ramey Logan",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liberty_Island_photo_Don_Ramey_Logan.jpg"
                 },
                 {
-                  "src": "/gallery/photo-21.jpg",
+                  "src": "/gallery/photo-21.webp",
                   "author": "Jorge Royan",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg"
                 },
                 {
-                  "src": "/gallery/photo-22.jpg",
+                  "src": "/gallery/photo-22.webp",
                   "author": "This photo was taken by Anton Zelenov. Please credit this with : Photo : Anton Zelenov in the immediate vicinity of the image. If you use one of my photos, please email me (account needed) or leave me a short message on my discussion page. It would be greatly appreciated. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banana_beach_Phuket_2017_-_02.jpg"
                 },
                 {
-                  "src": "/gallery/photo-23.jpg",
+                  "src": "/gallery/photo-23.webp",
                   "author": "Martin Falbisoner",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Canal_Grande_and_Ponte_di_Rialto,_Venice_-_September_2017.jpg"
                 },
                 {
-                  "src": "/gallery/photo-24.jpg",
+                  "src": "/gallery/photo-24.webp",
                   "author": "Diliff",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg"
                 },
                 {
-                  "src": "/gallery/photo-25.jpg",
+                  "src": "/gallery/photo-25.webp",
                   "author": "Vyacheslav Argenberg",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise,_Koh_Yao_Noi_(island),_Phang_Nga_Bay,_Thailand.jpg"
                 },
                 {
-                  "src": "/gallery/photo-26.jpg",
+                  "src": "/gallery/photo-26.webp",
                   "author": "Tiya20",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uluwatu_temple,_Bali.jpg"
                 },
                 {
-                  "src": "/gallery/photo-27.jpg",
+                  "src": "/gallery/photo-27.webp",
                   "author": "Bernard Gagnon",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_(Italy)_04.jpg"
                 },
                 {
-                  "src": "/gallery/photo-28.jpg",
+                  "src": "/gallery/photo-28.webp",
                   "author": "Stjepko Krehula",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg"
                 },
                 {
-                  "src": "/gallery/photo-29.jpg",
+                  "src": "/gallery/photo-29.webp",
                   "author": "kallerna",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Railay_Beach_5.jpg"
                 },
                 {
-                  "src": "/gallery/photo-30.jpg",
+                  "src": "/gallery/photo-30.webp",
                   "author": "Colin",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Ben_at_sunset_-_2014-10-27_17-30.jpg"
                 },
                 {
-                  "src": "/gallery/photo-31.jpg",
+                  "src": "/gallery/photo-31.webp",
                   "author": "Ввласенко",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_under_palm_trees._Eriyadu,_Maldives.jpg"
                 },
                 {
-                  "src": "/gallery/photo-32.jpg",
+                  "src": "/gallery/photo-32.webp",
                   "author": "Khanshahab06",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dubai_Marina_Skyline_93.jpg"
                 },
                 {
-                  "src": "/gallery/photo-33.jpg",
+                  "src": "/gallery/photo-33.webp",
                   "author": "Christian David",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_skyline_from_under_the_Brooklyn_Bridge_deck,_New_York_City.jpg"
                 },
                 {
-                  "src": "/gallery/photo-34.jpg",
+                  "src": "/gallery/photo-34.webp",
                   "author": "Benh LIEU SONG (Flickr)",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg"
                 },
                 {
-                  "src": "/gallery/photo-35.jpg",
+                  "src": "/gallery/photo-35.webp",
                   "author": "Diego Delso",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merli%C3%B3n,_Marina_Bay,_Singapur,_2023-08-18,_DD_45-47_HDR.jpg"
                 },
                 {
-                  "src": "/gallery/photo-36.jpg",
+                  "src": "/gallery/photo-36.webp",
                   "author": "chensiyuan",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_lauterbrunnen_valley_2012.jpg"
                 },
                 {
-                  "src": "/gallery/photo-37.jpg",
+                  "src": "/gallery/photo-37.webp",
                   "author": "User:Anna.Tsolidou",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oia_-_Santorini_2019.jpg"
                 },
                 {
-                  "src": "/gallery/photo-38.jpg",
+                  "src": "/gallery/photo-38.webp",
                   "author": "Diego Delso",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_Maya,_Ko_Phi_Phi,_Tailandia,_2013-08-19,_DD_13.JPG"
                 },
                 {
-                  "src": "/gallery/photo-39.jpg",
+                  "src": "/gallery/photo-39.webp",
                   "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarola_NW_Cinque_Terre_Sep23_A7C_07233.jpg"
                 },
                 {
-                  "src": "/gallery/photo-40.jpg",
+                  "src": "/gallery/photo-40.webp",
                   "author": "Jakub Hałun",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bled_Island_in_Lake_Bled,_Slovenia,_20240504_0901_8297.jpg"
                 },
                 {
-                  "src": "/gallery/photo-41.jpg",
+                  "src": "/gallery/photo-41.webp",
                   "author": "Borabora.jpg: User:Taka-0905 derivative work: Marsilio (talk)",
                   "license": "Public domain",
                   "licenseUrl": "",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Borabora3.jpg"
                 },
                 {
-                  "src": "/gallery/photo-42.jpg",
+                  "src": "/gallery/photo-42.webp",
                   "author": "Wilnel José Verdú Guerrero",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navagio,_Zante_02.jpg"
                 },
                 {
-                  "src": "/gallery/photo-43.jpg",
+                  "src": "/gallery/photo-43.webp",
                   "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here are not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg"
                 },
                 {
-                  "src": "/gallery/photo-44.jpg",
+                  "src": "/gallery/photo-44.webp",
                   "author": "Vyacheslav Argenberg",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Island_lagoon_in_Bacuit_Bay,_El_Nido,_Palawan,_Philippines.jpg"
                 },
                 {
-                  "src": "/gallery/photo-45.jpg",
+                  "src": "/gallery/photo-45.webp",
                   "author": "OrionCro",
                   "license": "CC BY-SA 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfalls_at_Plitvice_Lakes.jpg"
                 },
                 {
-                  "src": "/gallery/photo-46.jpg",
+                  "src": "/gallery/photo-46.webp",
                   "author": "Vyacheslav Argenberg",
                   "license": "CC BY 4.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halong_Bay,_Boat_deck.jpg"
                 },
                 {
-                  "src": "/gallery/photo-47.jpg",
+                  "src": "/gallery/photo-47.webp",
                   "author": "Midori",
                   "license": "CC BY 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
                   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Kawaguchiko_Sakura_Mount_Fuji_4.JPG"
                 },
                 {
-                  "src": "/gallery/photo-48.jpg",
+                  "src": "/gallery/photo-48.webp",
                   "author": "Norbert Nagel",
                   "license": "CC BY-SA 3.0",
                   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -1578,7 +1578,7 @@
                 "url": "/booking"
               },
               "image": {
-                "src": "/about/cta.jpg",
+                "src": "/about/cta.webp",
                 "alt": "Traveller with arms raised above the sea"
               }
             }
@@ -1595,29 +1595,29 @@
                 {
                   "name": "Priya Sharma",
                   "role": "Tour Guide",
-                  "photo": "/about/guide-1.jpg",
-                  "cover": "/about/guide-cover-1.jpg",
+                  "photo": "/about/guide-1.webp",
+                  "cover": "/about/guide-cover-1.webp",
                   "text": "Specializes in beach destinations and cultural tours, ensuring you experience the best of every place."
                 },
                 {
                   "name": "Rahul Mehta",
                   "role": "Tour Guide",
-                  "photo": "/about/guide-2.jpg",
-                  "cover": "/about/guide-cover-2.jpg",
+                  "photo": "/about/guide-2.webp",
+                  "cover": "/about/guide-cover-2.webp",
                   "text": "Adventure travel expert with in-depth knowledge of mountain treks and offbeat destinations."
                 },
                 {
                   "name": "Anjali Verma",
                   "role": "Tour Guide",
-                  "photo": "/about/guide-3.jpg",
-                  "cover": "/about/guide-cover-3.jpg",
+                  "photo": "/about/guide-3.webp",
+                  "cover": "/about/guide-cover-3.webp",
                   "text": "Passionate about helping travelers explore tropical destinations and create unforgettable memories."
                 },
                 {
                   "name": "Karan Malhotra",
                   "role": "Tour Guide",
-                  "photo": "/about/guide-4.jpg",
-                  "cover": "/about/guide-cover-4.jpg",
+                  "photo": "/about/guide-4.webp",
+                  "cover": "/about/guide-cover-4.webp",
                   "text": "Expert in international tours, known for planning smooth and enjoyable travel experiences."
                 }
               ]
@@ -1632,7 +1632,7 @@
                 "title1": "We're Here to",
                 "titleAccent": "Help You",
                 "description": "Have questions or need assistance with your travel plans? Our team is always ready to help you with the best travel solutions.",
-                "bgImage": "/contact/bg-cards.jpg",
+                "bgImage": "/contact/bg-cards.webp",
                 "cards": [
                   {
                     "icon": "pin",
@@ -1672,7 +1672,7 @@
                 "title1": "Get in",
                 "titleAccent": "Touch",
                 "description": "Have a question or need help planning your next trip? We’re here to assist you with the best travel solutions.",
-                "bgImage": "/contact/bg-form.jpg",
+                "bgImage": "/contact/bg-form.webp",
                 "details": [
                   {
                     "icon": "pin",
@@ -1771,7 +1771,7 @@
               "titleAccent": "Adventure",
               "description": "Fill out the form below and our travel experts will get back to you with the best packages and offers tailored to your needs.",
               "image": {
-                "src": "/booking/side.jpg",
+                "src": "/booking/side.webp",
                 "alt": "Traveller relaxing on a jetty"
               },
               "form": {
